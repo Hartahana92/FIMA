@@ -1,0 +1,56 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+    <div class="text-center mt-5">
+        <h1>LFIMA<br> <br> </h1>
+
+
+
+
+
+
+<a href="{% url "browse_studies" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/statya.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Публикации</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по необходимым заболеваниям </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_browse_metabolites" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #4848aa;">
+        <figcaption>
+              <img src="{% static 'browse/molecula.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #FFFFFF">Метаболиты</h2>
+              <p style="text-align:left; size:120%; color: #FFFFFF"> Просмотр метаболитов по необходимым заболеваниям </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_analyzes" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #eef360;">
+        <figcaption>
+              <img src="{% static 'browse/analys.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Анализ</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Анализ метаболомных данных &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>copyright © ЛФиМА bebris</p> </div>
+
+{% endblock content %}

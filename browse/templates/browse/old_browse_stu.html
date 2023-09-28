@@ -1,0 +1,41 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-sm">
+
+    </div>
+    <div class="col-md-auto">
+
+    <div class = "card">
+
+        <div class="card-header" style="font-size: 150%">
+            <!-- <h4> Specify metabolites you are looking for: </h4> -->
+            <h4> Укажите, какие публикации вам нужны: </h4>
+        </div>
+        <div class="card-body" >
+
+                <div class="list-group">
+
+                    <div class="col-sm">
+                    <a href="{% url "browse_studies_lung" %}" class="list-group-item list-group-item-action list-group-item-primary"><h5>Рак лёгкого</h5></a>
+                    <a href="{% url "browse_studies_lung" %}" class="list-group-item list-group-item-action list-group-item-primary"><h5>Рак лёгкого</h5></a>
+                    <a href="{% url "browse_studies_kidney" %}" class="list-group-item list-group-item-action list-group-item-primary"><h5>Рак почки</h5></a>
+                    <a href="{% url "browse_studies_breast" %}" class="list-group-item list-group-item-action list-group-item-primary"><h5>Рак молочной железы</h5></a>
+                    <a href="{% url "browse_studies_breast" %}" class="list-group-item list-group-item-action list-group-item-primary"><h5>Рак молочной железы</h5></a>
+                    </div>
+                </div>
+
+
+        </div>
+        </div>
+    </div>
+    <div class="col-sm">
+</div>
+</div>
+
+<div class="position-absolute top-100 start-50 translate-middle">
+    <p>copyright © ЛФиМА bebris</p>
+</div>
+{% endblock content %}

@@ -1,0 +1,68 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+    <div class="text-center mt-5">
+        <h1>LFIMA<br> <br> </h1>
+    </div>
+
+
+<div class="card-group">
+
+
+  <div class="card">
+    <figure>
+        <figcaption>
+              <img src="{% static 'browse/publ.jpg' %}" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+              <div class="card-body">
+                <h4 class="card-title">Публикации</h4>
+                <p class="card-text">
+                  Просмотр публикаций по необходимым типам рака
+                </p>
+                <p class="card-text">
+
+                </p>
+                <br>
+                  <a href="{% url "browse_studies" %}" class="btn btn-primary stretched-link" style="background-color: #0bebba; border: #0bebba">Перейти</a>
+              </div>
+        </figcaption>
+    </figure>
+  </div>
+
+
+  <div class="card">
+    <img src="{% static 'browse/met.jpg' %}" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+    <div class="card-body">
+      <h4 class="card-title">Метаболиты</h4>
+      <p class="card-text">Просмотр метаболитов по необходимым типам рака</p>
+      <p class="card-text">
+
+      </p>      <br>
+        <a href="{% url "browse_metabolites" %}" class="btn btn-primary stretched-link" style="background-color: #4848aa; border: #4848aa">Перейти</a>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img src="{% static 'browse/anal.jpg' %}" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+    <div class="card-body">
+      <h4 class="card-title">Анализ</h4>
+      <p class="card-text">
+        Анализ метаболомных данных
+      </p>
+      <p class="card-text">
+
+      </p>      <br>
+        <a href="{% url "browse_metabolites" %}" class="btn btn-primary stretched-link" style="background-color: #eef360; border: #eef360; color: #000000">Перейти</a>
+    </div>
+  </div>
+
+
+</div>
+
+
+<div class="text-center mt-5">
+    <p>копирайт © ЛФиМА bebris</p>
+</div>
+
+
+{% endblock content %}

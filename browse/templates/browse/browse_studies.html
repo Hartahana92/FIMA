@@ -1,0 +1,126 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+
+
+
+  <a href="{% url "browse_studies" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Публикации </p></a>
+    <p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+
+<div class="text-center mt-5">
+ <!-- <h1 style="text-align: left"> &nbsp;&nbsp;&nbsp;&nbsp;Укажите, какие публикации вам нужны: </h1> -->
+<br>
+<br>
+<a href="{% url "browse_studies_lung_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/lung.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Рак лёгкого</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по раку лёгкого&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_kidney_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/kidney.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Рак почки</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по раку почки&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_diabetes_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/diabetes.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Диабет</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по диабету&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+
+<a href="{% url "browse_studies_prostate_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/prostate.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Рак простаты</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по раку простаты&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_breast_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/breast.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Рак молочной железы</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по раку молочной железы&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_cvd_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/hypertension.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">ССЗ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по ССЗ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_colorectal_choice" %}" style="text-decoration: none;color: #000000 !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/colorectal.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Колоректальный рак</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по колоректальному раку&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_arthritis_choice" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/arthritis.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Ревматоидный артрит</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по ревматоидному артриту&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "browse_studies_depression_choice" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #0bebba;">
+        <figcaption>
+              <img src="{% static 'browse/depression.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Депрессия</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр публикаций по деперссии&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>copyright © ЛФиМА bebris</p>
+</div>
+{% endblock content %}

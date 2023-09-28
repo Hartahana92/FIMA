@@ -1,0 +1,712 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+
+
+    <!--
+    				<div class="card">
+    					<div class="card-header">
+    						<h4>Информация о статье</h4>
+    					</div>
+    					<div class="card-body">
+    						<ul>
+    							<li><h4>Lung Cancer. 2011 Nov;74(2):284-92. doi: 10.1016/j.lungcan.2011.02.008. Epub  2011 Mar 15.</h4></li>
+    							<li><H4><a  href="https://www.ncbi.nlm.nih.gov/pubmed/21411176" target="_blank"> A metabolomic approach to lung cancer.</a></H4></li>
+    							<li><h4 > Hori S, Nishiumi S, Kobayashi K, Shinohara M, Hatakeyama Y, Kotani Y, Hatano N, Maniwa Y, Nishio W, Bamba T, Fukusaki E, Azuma T, Takenawa T, Nishimura Y, Yoshida M.</h4></li>
+    						</ul>
+    					</div>
+    				</div>
+    -->
+
+
+
+    	<div class="container">
+        <br>
+        <div class="card">
+          <div class="card-header">
+            				<h3>Отображение подробной информации об исследовании</h3>
+          </div>
+        <div class="card-body">
+
+
+
+          <table class= "table table-border table-hover bg" cellspacing="6"  >
+            <thead style="background-color: #DEDEDE;">
+              <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Информация о статье</h4></th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Pubmed ID</td>
+
+                    <td> <a href=https://www.ncbi.nlm.nih.gov/pubmed/21176209> 21176209 </a> </td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Авторы</td>
+
+                    <td>Jun Maeda, Masahiko Higashiyama, Akira Imaizumi, Tomio Nakayama, Hiroshi Yamamoto, Takashi Daimon, Minoru Yamakado, Fumio Imamura, Ken Kodama </td>
+                </tr>
+                <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Страна</td>
+
+                    <td>Japan</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Год публикации</td>
+
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Функция исследования</td>
+
+                    <td>–</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Сравниваемые группы</td>
+
+                    <td>NSCLC</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        
+                        <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                          <thead style="background-color: #DEDEDE;">
+                            <tr><th colspan="3" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Дизайн эксперимента</h4></th></tr>
+                            <tr>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #1 </td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                                  <td>NSCLC</td>
+                                  <td>healthy</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                                  <td>141</td>
+                                  <td>423</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                                  <td>93, 48</td>
+                                  <td>279, 144</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                                  <td>62.7 ± 9.2</td>
+                                  <td>61.1 ± 8.7</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    
+
+      <table class= "table table-border table-hover bg" cellspacing="6"  >
+        <thead style="background-color: #DEDEDE;">
+          <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Инструментальный анализ</h4></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Хроматографическое разделение  </td>
+
+                <td>LC</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Источник ионизации </td>
+
+                <td>ESI</td>
+            </tr>
+            <tr>
+            <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Режим положительной/отрицательной ионизации </td>
+
+                <td>positive </td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Масс-анализатор </td>
+
+                <td>quadrupole</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Уровень идентификации </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Программное обеспечение для обработки данных </td>
+
+                <td>Xcalibur </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <table class= "table table-border table-hover bg" cellspacing="6"  >
+      <thead style="background-color: #DEDEDE;">
+        <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Процессинг данных</h4></th></tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Поиск по базам данных  </td>
+
+              <td>–</td>
+          </tr>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Статистический анализ </td>
+
+              <td> Mann-Whitney U-test, PCA</td>
+          </tr>
+          <tr>
+          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Метод классификации </td>
+
+              <td>ROC curve</td>
+          </tr>
+
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <br>
+    <div class="card">
+    					<div class="card-header" >
+    						<h4>Выявленные значимые метаболиты</h4>
+    					</div>
+    					<div class="card-body" role="tablist">
+    						<ul class="nav nav-tabs">
+    							<li class="nav-item">
+    								<a class="nav-link active" data-toggle='tab' href="#tab1" role="tab" aria-controls="home" aria-expanded="true">Метод дифференциального анализа</a>
+    							</li>
+    							<li class="nav-item">
+    								<a class="nav-link " data-toggle='tab' href="#tab2" role="tab" aria-controls="profile">Классификационный метод</a>
+    							</li>
+    						</ul>
+    			            <div class="tab-content">
+    			            	<div class="tab-pane fade show active" role='tabpanel' id="tab1" style="width: 100% !important;">
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table1">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (заболевание)</th>
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (контроль)</th>
+    										<th style="font-family: monospace;color:black !important">Fold change (case/control)</th>
+    										<th style="font-family: monospace;color:black !important">P-value</th>
+    										<th style="font-family: monospace;color:black !important">FDR</th>
+    										<th style="font-family: monospace;color:black !important">VIP</th>
+                                            <th > HMDB </th>
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> Arg </td>
+                        <td> 101.3 ± 21.6 μM </td>
+                        <td> 98.1±17.8 μM </td>
+                        <td> 1.03261977573904 </td>
+                        <td> 0.12 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> thr </td>
+                        <td> 115.6 ± 28.6 μM </td>
+                        <td> 115.9 ± 25.4 μM </td>
+                        <td> 0.997411561691113 </td>
+                        <td> 0.92 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Ser </td>
+                        <td> 117.1 ± 19.9 μM </td>
+                        <td> 111.4±17.9 μM </td>
+                        <td> 1.05116696588869 </td>
+                        <td> 0.003 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Leu </td>
+                        <td> 131.8 ± 34.3 μM </td>
+                        <td> 122.4±27.6 μM </td>
+                        <td> 1.07679738562091 </td>
+                        <td> 0.003 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Pro </td>
+                        <td> 168 ± 43.6 μM </td>
+                        <td> 150.9±41.4 μM </td>
+                        <td> 1.11332007952286 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Lys </td>
+                        <td> 211.5 ± 36.2 μM </td>
+                        <td> 200.3±34.1 μM </td>
+                        <td> 1.05591612581128 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> ABA </td>
+                        <td> 24.2 ± 8.4 μM </td>
+                        <td> 23.2±6.9 μM </td>
+                        <td> 1.04310344827586 </td>
+                        <td> 0.2 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> val </td>
+                        <td> 244.8 ± 47.5 μM </td>
+                        <td> 239.8±46.1 μM </td>
+                        <td> 1.0208507089241 </td>
+                        <td> 0.28 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Gly </td>
+                        <td> 263.6 ± 63.2 μM </td>
+                        <td> 237±57.3 μM </td>
+                        <td> 1.11223628691983 </td>
+                        <td> 0 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> met </td>
+                        <td> 29.4 ± 6.1 μM </td>
+                        <td> 28±5.2 μM </td>
+                        <td> 1.05 </td>
+                        <td> 0.013 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Cit </td>
+                        <td> 34.4 ± 10.6 μM </td>
+                        <td> 33.2±8.3 μM </td>
+                        <td> 1.03614457831325 </td>
+                        <td> 0.2 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Ala </td>
+                        <td> 422.3 ± 97.4 μM </td>
+                        <td> 383.7±88.9 μM </td>
+                        <td> 1.10059942663539 </td>
+                        <td> 0 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Asn </td>
+                        <td> 45.1 ± 8.2 μM </td>
+                        <td> 44.8±7.2 μM </td>
+                        <td> 1.00669642857143 </td>
+                        <td> 0.72 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Glu </td>
+                        <td> 46.7 ± 19.4 μM </td>
+                        <td> 45.7±19.5 μM </td>
+                        <td> 1.0218818380744 </td>
+                        <td> 0.6 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Gln </td>
+                        <td> 580.5 ± 93.3 μM </td>
+                        <td> 587.9±83.5 μM </td>
+                        <td> 0.987412825310427 </td>
+                        <td> 0.4 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> trp </td>
+                        <td> 59.3 ± 12 μM </td>
+                        <td> 59.8±10.9 μM </td>
+                        <td> 0.991638795986622 </td>
+                        <td> 0.67 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Orn </td>
+                        <td> 67.6 ± 19.7 μM </td>
+                        <td> 54.4±12.3 μM </td>
+                        <td> 1.24264705882353 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Phe </td>
+                        <td> 67.9 ± 12.2 μM </td>
+                        <td> 63.9±11.2 μM </td>
+                        <td> 1.06259780907668 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> His </td>
+                        <td> 77.3 ± 15 μM </td>
+                        <td> 80.8±10.7 μM </td>
+                        <td> 0.956683168316832 </td>
+                        <td> 0.01 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tyr </td>
+                        <td> 80.7 ± 15.6 μM </td>
+                        <td> 75.8±15.5 μM </td>
+                        <td> 1.0646437994723 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Ile </td>
+                        <td> 84.3 ± 22.1 μM </td>
+                        <td> 69.7±17.5 μM </td>
+                        <td> 1.20946915351507 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			           <div class="tab-pane fade" role='tabpanel' id="tab2" style="width: 100% !important;">
+
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table2">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+
+    											<th style="font-family: monospace;color:black !important">Значение отсечки</th>
+
+    											<th style="font-family: monospace;color:black !important">AUROC (95%CI)</th>
+
+    											<th style="font-family: monospace;color:black !important">Чувствительность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Специфичность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Точность (%)</th>
+
+                                                <th> HMDB </th>
+
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> Arg </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> thr </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Ser </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Leu </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Pro </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Lys </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> ABA </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> val </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Gly </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> met </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Cit </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Ala </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Asn </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Glu </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Gln </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> trp </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Orn </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Phe </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> His </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tyr </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> Ile </td>
+                        <td> – </td>
+                        <td> combination of 21 amino acid: 0.812 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			            </div>
+    					</div>
+    				</div>
+
+    			</div>
+
+
+
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/paper_try.js" %}'></script>
+
+    {% endblock content %}
+    

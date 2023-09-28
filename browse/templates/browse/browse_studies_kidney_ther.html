@@ -1,0 +1,298 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+
+<br><br>
+
+    <a href="{% url "browse_studies" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Публикации </p></a>
+    <p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+    <a href="{% url "browse_studies_kidney_choice" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;"> Рак почки <p style="text-align:left;">  </p></a>
+    <p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+    <a href="{% url "browse_studies_kidney_ther" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;"> Терапия <p style="text-align:left;">  </p></a>
+
+<br><br>
+    <!--
+  <div class="container">
+        <!--
+          <div class = "card">
+
+              <div class="card-header" style="font-size: 150%">
+                  <h3> Фильтрация по: </h3>
+              </div>
+              <div class="card-body" >
+
+                <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/filter.png' %}"> &nbsp <h3 style="display: inline-block;"> Участники:</h3>
+
+                  <div class="row" style="padding-left:50px">
+
+
+                      <div class="col">
+                          <fieldset style="border: 5px solid #E6E6FA;width: 100%;">
+                              <div class="container">
+                              <form>
+                                <div class="container">
+                                      <legend style="size: 50%">
+                                          <h5 style="display: inline-block;">Заболевание&nbsp;&nbsp;</h5>
+
+                                          <input type="checkbox" id="checkAll"> <p style= "font-size:80%; display:inline"  >Выбрать всё </p>
+                                      </legend>
+
+
+                                            <hr>
+                                            <div id="case"> <!-- a nafiga zdes' ID?-> здесь был коммент
+
+                                                <table cellpadding="6">
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="case" value="benign lung disease" class="case"> benign lung disease </td>
+                                                      <td> <input type="checkbox" name="case" value="adenocarcinoma"  class="case"> NSCLC_adenocarcinoma  </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="case" value="lung cancer" class="case"> lung cancer_unspecified&nbsp </td>
+                                                      <td> <input type="checkbox" name="case" value="large cell carcinoma" class="case"> NSCLC_large cell carcinoma </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="case" value="adenosquamous carcinoma" class="case"> NSCLC_adenosquamous carcinoma  </td>
+                                                      <td> <input type="checkbox" name="case" value="squamous cell carcinoma"  class="case"> NSCLC_squamous cell carcinoma </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="case" value="NSCLC" class="case"> NSCLC_unspecified &nbsp;&nbsp;&nbsp</td>
+                                                      <td> <input type="checkbox" name="case" value="SCLC" class="case"> SCLC </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="case" value="mesothelioma|secondary metastasis to lung|clinic-radiological diagnosis|radiological|carcinoid|anaplastic carcinoma" class="case"> other types of lung cancer <br> <br>
+                                                  </tr>
+                                                </table>
+                                            </div>
+
+                                      </div>
+                                    </form>
+
+                                  <fieldset style="border: 5px solid #E6E6FA;width: 100%;">
+                                      <div class="container">
+                                            <legend style="size: 50%">
+                                                <h5 style="display: inline-block;">Стадия рака&nbsp;&nbsp;</h5>
+                                            </legend>
+                                          <hr>
+                                          <div id="cancer_stage">
+                                              <table cellpadding="6" style="width: 100%;">
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="cancer_stage" value="I" class="cancer_stage"> I </td>
+                                                      <td> <input type="checkbox" name="cancer_stage" value="I, II" class="cancer_stage"> I, II </td>
+                                                      <td> <input type="checkbox" name="cancer_stage" value="I, II, III" class="cancer_stage"> I, II, III  </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td> <input type="checkbox" name="cancer_stage" value="I, II, IV" class="cancer_stage"> I, II, IV </td>
+                                                      <td> <input type="checkbox" name="cancer_stage" value="II, III, IV" class="cancer_stage"> II, III, IV </td>
+                                                      <td> <input type="checkbox" name="cancer_stage" value="I, II, III, IV" class="cancer_stage"> I, II, III, IV  </td>
+                                                  </tr>
+                                              </table>
+                                          </div>
+                                       </div>
+                                  </fieldset>
+                                  <br>
+
+                          </div>
+                          </fieldset>
+                  </div>
+
+
+
+
+
+
+                  <div class="col-1" align="center">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      vs.
+                  </div>
+
+
+                  <div class="col">
+                      <fieldset style="border: 5px solid #E6E6FA;width: 100%;">
+                          <div class="container">
+                          <form>
+                            <div class="container">
+                                  <legend style="size: 50%">
+                                      <h5 style="display: inline-block;">Контрольная группа&nbsp;&nbsp;</h5>
+
+                                      <input type="checkbox" id="checkAll_control" > <p style= "font-size:80%; display:inline"  >Выбрать всё </p>
+                                  </legend>
+
+
+                                        <hr>
+                                        <div id="control"> <!-- a nafiga zdes' ID?-> здесь был коммент
+
+                                            <table cellpadding="6">
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="at-risk controls" class="control"> at-risk controls </td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="before vs. after treatment" class="control"> before vs. after treatment </td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="healthy" class="control"> healthy controls  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="unspecified" class="control"> NSCLC_unspecified  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="squamous cell carcinoma" class="control"> NSCLC_squamous cell carcinoma </td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="noncancerous lung diseases|other lung diseases|pulmonary tuberculosis|non-malignant|tuberculous pleurisy|pneumonia" class="control"> noncancerous lung diseases  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td> <input type="checkbox" name="control" value="tumor vs. adjacent normal tissue" class="control"> tumor vs. adjacent normal tissue</td>
+                                              </tr>
+
+                                            </table>
+                                        </div>
+
+                                  </div>
+                              </form>
+                        <fieldset>
+                  </div>
+
+                </div>
+
+        </div>
+        <br><br>
+        <hr>
+            <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/filter.png' %}" > &nbsp <h3 style="display: inline-block;"> Образец:&nbsp</h3> <input type="checkbox" id="checkAll_specimen"> <p style= "font-size:80%; display:inline"  >Выбрать всё </p> </div>
+            <div style="padding-left: 50px">
+                <div id="Specimen">
+                    <table cellpadding="6" >
+                        <tr>
+                            <td> <input type="checkbox" name="specimen" value="blood" class="specimen"> blood </td>
+                            <td> <input type="checkbox" name="specimen" value="bronchoalveolar lavage fluid" class="specimen"> bronchoalveolar lavage fluid </td>
+                            <td> <input type="checkbox" name="specimen" value="dried blood spot" class="specimen"> dried blood spot  </td>
+                            <td> <input type="checkbox" name="specimen" value="exhaled breath" class="specimen"> exhaled breath  </td>
+                            <td> <input type="checkbox" name="specimen" value="plasma" class="specimen"> plasma  </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="checkbox" name="specimen" value="pleural effusion" class="specimen"> pleural effusion </td>
+                            <td> <input type="checkbox" name="specimen" value="serum" class="specimen"> serum </td>
+                            <td> <input type="checkbox" name="specimen" value="sputum" class="specimen"> sputum  </td>
+                            <td> <input type="checkbox" name="specimen" value="tissue" class="specimen"> tissue </td>
+                            <td> <input type="checkbox" name="specimen" value="urine" class="specimen"> urine </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+                <div class="container">
+                    <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/filter.png' %}" > &nbsp <h3 style="display: inline-block;"> Хроматогрофия:&nbsp</h3>
+                    <div style="padding-left: 50px">
+                        <div id="Chromatography">
+                            <table cellpadding="14" >
+                                <tr>
+                                    <td> <input type="checkbox" name="chromatography" value="DI" > DI </td>
+                                    <td> <input type="checkbox" name="chromatography" value="flow infusion"> Flow infusion </td>
+                                    <td> <input type="checkbox" name="chromatography" value="GC"> GC  </td>
+                                    <td> <input type="checkbox" name="chromatography" value="LC"> LC </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                    <div class="container">
+                        <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/filter.png' %}" > &nbsp <h3 style="display: inline-block;"> Источник ионизации:&nbsp</h3>
+                        <div style="padding-left: 50px">
+                            <div id="ion">
+                                <table cellpadding="8" >
+                                    <tr>
+                                        <td> <input type="checkbox" name="ion" value="APCI" > APCI </td>
+                                        <td> <input type="checkbox" name="ion" value="APPI"> APPI </td>
+                                        <td> <input type="checkbox" name="ion" value="AFADESI"> AFADESI  </td>
+                                        <td> <input type="checkbox" name="ion" value="EI"> EI </td>
+                                        <td> <input type="checkbox" name="ion" value="ESI"> ESI  </td>
+                                        <td> <input type="checkbox" name="ion" value="nano-ESI"> nano-ESI </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+        <hr>
+            <div class="container">
+                <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/filter.png' %}" > &nbsp <h3 style="display: inline-block;"> Год публикации:</h3>
+                <div style="padding-left: 50px">
+                    <input type="text" name="y1" id="y1"> ≦ Year ≦ <input type="text" name="y2" id="y2">
+                    <br>
+                </div>
+            </div>
+            <br>
+        </div> <!--card body-> здесь был коммент
+        </div> -->
+
+
+
+        <div class="container">
+          <div class="h-25">
+              <div class = "card">
+                  <div class="card-header" style="font-size: 150%">
+                      <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/table.png' %}"> <h3 style="display: inline-block;"> Отображение исследований, удовлетворяющих настройкам фильтра </h3>
+                  </div>
+                <div class="card-body" >
+              <!--  <div class="text-center mt-5"> -->
+                  <div class="table-responsive">
+
+                    <table id="paper_table" class="compact cell-border stripe" width="100%" height="50%" >
+                      <thead>
+                            <tr>
+                                <td style="height:50px"> Pubmed ID </td>
+                                <td> Авторы </td>
+                                <td> Год публикации </td>
+                                <td> Функция </td>
+                                <td> Метаболиты, выявленные в исследовании &nbsp; </td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {% for item in table %}
+                                <tr>
+                                    <td>{{ item.pubmed_id  }}</td>
+                                    <td>{{ item.authors  }}</td>
+                                    <td>{{ item.год  }}</td>
+
+                                    <td>{{ item.function  }}</td>
+
+                                    <td> Выявленные метаболиты </td>
+
+
+
+
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+
+                      </table>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+        <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+        <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+        <script type="text/javascript" src="{% static 'browse/js/browse_studies_kidney.js' %}"></script>
+        <div class="text-center mt-5">
+            <p>copyright © ЛФиМА bebris</p>
+        </div>
+  {% endblock content %}

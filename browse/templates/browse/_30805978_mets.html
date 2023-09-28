@@ -1,0 +1,336 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED30805978" %}' target="_blank">30805978</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> salicylic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 5.80813102780905 </td>
+                    <td> 6.46e-05 </td>
+                    <td> 0.000909 </td>
+                    <td> 0.83921 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> paracetamol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 4.72964204582074 </td>
+                    <td> 2.86e-11 </td>
+                    <td> 1.21e-10 </td>
+                    <td> 1.2319 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> threitol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 4.05336192643834 </td>
+                    <td> 1.06e-10 </td>
+                    <td> 3.58e-09 </td>
+                    <td> 1.3488 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> adenosine-5-phosphate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3.86407741984872 </td>
+                    <td> 2.2e-11 </td>
+                    <td> 1.21e-09 </td>
+                    <td> 1.3045 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 2-hydroxyhippuric acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3.83366958537594 </td>
+                    <td> 3.07e-08 </td>
+                    <td> 7.42e-07 </td>
+                    <td> 0.8596 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> azelaic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.39408271845162 </td>
+                    <td> 0.000455 </td>
+                    <td> 0.004052 </td>
+                    <td> 0.65377 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> oleic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.20331077465311 </td>
+                    <td> 8.95e-06 </td>
+                    <td> 0.000151 </td>
+                    <td> 0.73145 </td>
+                    <td> –</td>
+                    <td> HMDB0000207 </td>
+                </tr>
+            
+                <tr>
+                    <td> palmitoleic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.12911223103956 </td>
+                    <td> 0.000105 </td>
+                    <td> 0.001368 </td>
+                    <td> 0.73193 </td>
+                    <td> –</td>
+                    <td> HMDB0003229 </td>
+                </tr>
+            
+                <tr>
+                    <td> butane-2,3-diol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.12300386835431 </td>
+                    <td> 5.81e-05 </td>
+                    <td> 0.000893 </td>
+                    <td> 0.7573 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> kynurenine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.86580213621981 </td>
+                    <td> 0.00022 </td>
+                    <td> 0.002408 </td>
+                    <td> 0.54953 </td>
+                    <td> –</td>
+                    <td> HMDB0000684 </td>
+                </tr>
+            
+                <tr>
+                    <td> maltose </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.71977997334083 </td>
+                    <td> 0.000228 </td>
+                    <td> 0.002408 </td>
+                    <td> 0.51667 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 3-phosphoglycerate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.59975170055238 </td>
+                    <td> 0.004035 </td>
+                    <td> 0.030999 </td>
+                    <td> 0.23804 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> urea </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.52994310132377 </td>
+                    <td> 0.000276 </td>
+                    <td> 0.002596 </td>
+                    <td> 0.15879 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> dodecanol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.732555514975969 </td>
+                    <td> 0.001641 </td>
+                    <td> 0.013205 </td>
+                    <td> 1.0168 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> naproxen </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.718594600438878 </td>
+                    <td> 0.000128 </td>
+                    <td> 0.001542 </td>
+                    <td> 1.1766 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> cystine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.717290784120464 </td>
+                    <td> 0.004624 </td>
+                    <td> 0.033975 </td>
+                    <td> 1.047 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> caprylic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.665273743128804 </td>
+                    <td> 0.001293 </td>
+                    <td> 0.010923 </td>
+                    <td> 1.0126 </td>
+                    <td> –</td>
+                    <td> HMDB0000482 </td>
+                </tr>
+            
+                <tr>
+                    <td> lyxose </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.542084627312226 </td>
+                    <td> 0.000262 </td>
+                    <td> 0.002596 </td>
+                    <td> 1.0744 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> inosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.539928396620536 </td>
+                    <td> 6.73e-06 </td>
+                    <td> 0.000126 </td>
+                    <td> 1.2696 </td>
+                    <td> –</td>
+                    <td> HMDB0000195 </td>
+                </tr>
+            
+                <tr>
+                    <td> oxalic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.447497026130133 </td>
+                    <td> 1.93e-09 </td>
+                    <td> 5.43e-08 </td>
+                    <td> 1.4044 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> fructose </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.401892065539033 </td>
+                    <td> 4.5e-06 </td>
+                    <td> 9.51e-05 </td>
+                    <td> 1.2899 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> indole-3-acetate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.247020041160623 </td>
+                    <td> 3.62e-18 </td>
+                    <td> 6.12e-16 </td>
+                    <td> 1.6853 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> erythritol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.206079085276544 </td>
+                    <td> 2.58e-17 </td>
+                    <td> 2.18e-15 </td>
+                    <td> 1.6743 </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

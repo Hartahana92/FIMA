@@ -1,0 +1,34 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+<div class="text-center mt-5">
+  <a href="{% url "browse_browse_metabolites" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Метаболиты </p></a>
+  <p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+  <a href="{% url "browse_metabolites_ours" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> Собственные данные </p></a>
+  <p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+<br><br>
+
+
+ <!-- <h1 style="text-align: left"> &nbsp;&nbsp;&nbsp;&nbsp;Укажите, какие публикации вам нужны: </h1> -->
+ <br>
+
+
+<a href="{% url "browse_metabolites_cvd_ours" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #4848aa;">
+        <figcaption>
+              <img src="{% static 'browse/hypertension.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #FFFFFF">ССЗ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+              <p style="text-align:left; size:120%; color: #FFFFFF"> Просмотр метаболитов по ССЗ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>copyright © ЛФиМА bebris</p>
+
+</div>
+{% endblock content %}

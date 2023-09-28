@@ -1,0 +1,828 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED32693607" %}' target="_blank">32693607</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> creatine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.34 </td>
+                    <td> <0.001 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000064 </td>
+                </tr>
+            
+                <tr>
+                    <td> 6-phosphonoglucono-D-lactone </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.001 </td>
+                    <td> 0.028 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001127 </td>
+                </tr>
+            
+                <tr>
+                    <td> 2-hydroxy-6-aminopurine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.42 </td>
+                    <td> <0.001 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000403 </td>
+                </tr>
+            
+                <tr>
+                    <td> 8-hydroxy-2-deoxyguanosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.44 </td>
+                    <td> 0.001 </td>
+                    <td> 0.028 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0003333 </td>
+                </tr>
+            
+                <tr>
+                    <td> guanosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.27 </td>
+                    <td> 0.001 </td>
+                    <td> 0.028 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000133 </td>
+                </tr>
+            
+                <tr>
+                    <td> myo-inositol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.03 </td>
+                    <td> <0.001 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000211 </td>
+                </tr>
+            
+                <tr>
+                    <td> Cer(d18:0/16:0)-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.29 </td>
+                    <td> <0.001 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011760 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 15:0 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.87 </td>
+                    <td> <0.001 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0010381 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 17:0 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.18 </td>
+                    <td> 0.002 </td>
+                    <td> 0.042 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0012108 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 16:0 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3.05 </td>
+                    <td> 0.002 </td>
+                    <td> 0.042 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011503 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 18:1 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2.73 </td>
+                    <td> 0.001 </td>
+                    <td> 0.028 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011506 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 36:0 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.54 </td>
+                    <td> 0.002 </td>
+                    <td> 0.042 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0008036 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 38:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.38 </td>
+                    <td> <0.001 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0008300 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC O 36:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.55 </td>
+                    <td> 0.002 </td>
+                    <td> 0.042 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0013414 </td>
+                </tr>
+            
+                <tr>
+                    <td> SM 35:2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.24 </td>
+                    <td> 0.001 </td>
+                    <td> 0.028 </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 6-phosphogluconic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.65 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001316 </td>
+                </tr>
+            
+                <tr>
+                    <td> citric acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.66 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000094 </td>
+                </tr>
+            
+                <tr>
+                    <td> lactic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.66 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000190 </td>
+                </tr>
+            
+                <tr>
+                    <td> glyceraldehyde-3-phosphate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.24 </td>
+                    <td> 0.038 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> D-glucose 6-phosphate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.85 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> D-Sedoheptuiose 7-phosphate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.84 </td>
+                    <td> 0.002 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> D-Erythrose 4-phosphate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.78 </td>
+                    <td> 0.002 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001321 </td>
+                </tr>
+            
+                <tr>
+                    <td> 5-deoxy-5'-methylthioadenosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.49 </td>
+                    <td> 0.004 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001173 </td>
+                </tr>
+            
+                <tr>
+                    <td> SAH </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.64 </td>
+                    <td> 0.027 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000939 </td>
+                </tr>
+            
+                <tr>
+                    <td> xanthine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.47 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000292 </td>
+                </tr>
+            
+                <tr>
+                    <td> creatine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.6 </td>
+                    <td> 0.027 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000064 </td>
+                </tr>
+            
+                <tr>
+                    <td> glutathione </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.22 </td>
+                    <td> 0.02 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000125 </td>
+                </tr>
+            
+                <tr>
+                    <td> oxidized glutathione </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.5 </td>
+                    <td> 0.044 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0003337 </td>
+                </tr>
+            
+                <tr>
+                    <td> carnitine C4:0 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.75 </td>
+                    <td> 0.024 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0002013 </td>
+                </tr>
+            
+                <tr>
+                    <td> carnitine C18:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.81 </td>
+                    <td> 0.041 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0006464 </td>
+                </tr>
+            
+                <tr>
+                    <td> FFA C20:2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.75 </td>
+                    <td> 0.049 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> FFA C20:3 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.71 </td>
+                    <td> 0.028 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> Eicosatrienoic acid methyl ester </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.91 </td>
+                    <td> 0.006 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 15:0 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.4 </td>
+                    <td> 0.006 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0010381 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 15:0 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.64 </td>
+                    <td> 0.04 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0010381 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 18:1 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.73 </td>
+                    <td> 0.04 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 22:0 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.93 </td>
+                    <td> 0.008 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0010398 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPC 22:4 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.74 </td>
+                    <td> 0.032 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0010401 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 16:1 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.55 </td>
+                    <td> 0.015 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011504 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 16:1 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.58 </td>
+                    <td> 0.017 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011504 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 18:0 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.51 </td>
+                    <td> 0.037 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011130 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 18:1 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.72 </td>
+                    <td> 0.008 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011506 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 20:1 sn-1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.3 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011512 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 22:4 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.8 </td>
+                    <td> 0.031 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011523 </td>
+                </tr>
+            
+                <tr>
+                    <td> LPE 22:6 sn-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.75 </td>
+                    <td> 0.006 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011526 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 32:0 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.22 </td>
+                    <td> 0.013 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000564 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 33:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.63 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0008099 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 33:2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.7 </td>
+                    <td> 0.003 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0008132 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 35:2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.62 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0008330 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC 35:3 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.67 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0008396 </td>
+                </tr>
+            
+                <tr>
+                    <td> PC O 34:2-2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.67 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011151 </td>
+                </tr>
+            
+                <tr>
+                    <td> PE O 36:3 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.64 </td>
+                    <td> 0.01 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> PE 32:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.56 </td>
+                    <td> 0.002 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> PE 38:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.61 </td>
+                    <td> 0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0009255 </td>
+                </tr>
+            
+                <tr>
+                    <td> PE 38:4 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.76 </td>
+                    <td> 0.007 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0009291 </td>
+                </tr>
+            
+                <tr>
+                    <td> PE 38:6 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.8 </td>
+                    <td> 0.048 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0009294 </td>
+                </tr>
+            
+                <tr>
+                    <td> PE O 34:3 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.44 </td>
+                    <td> 0.005 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> SM 36:2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.23 </td>
+                    <td> 0.033 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> sphinganine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.65 </td>
+                    <td> 0.021 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000269 </td>
+                </tr>
+            
+                <tr>
+                    <td> sphingosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 1.4 </td>
+                    <td> 0.021 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000252 </td>
+                </tr>
+            
+                <tr>
+                    <td> kynurenine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.62 </td>
+                    <td> 0.031 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000684 </td>
+                </tr>
+            
+                <tr>
+                    <td> oxypurinol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.43 </td>
+                    <td> <0.001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000786 </td>
+                </tr>
+            
+                <tr>
+                    <td> pregnenolone </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.35 </td>
+                    <td> 0.006 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000253 </td>
+                </tr>
+            
+                <tr>
+                    <td> N8-Acetylspermidine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.3 </td>
+                    <td> 0.002 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0002189 </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

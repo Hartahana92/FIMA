@@ -1,0 +1,100 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+
+<br><br>
+<a href="{% url "browse_browse_metabolites" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Метаболиты </p></a>
+<p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+<a href="{% url "browse_metabolites" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> Литературные данные </p></a>
+<p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+<a href="{% url "browse_metabolites_diabetes_choice" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> Диабет </p></a>
+<p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+<a href="{% url "browse_metabolites_diabetes" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> Маркеры заболевания </p></a>
+<p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+<br><br>
+<!--
+          <div class = "card">
+
+              <div class="card-header" style="font-size: 150%">
+                  <h3> Настройка фильтра недоступна </h3>
+              </div>
+              <div class="card-body" style="display: inline-block;">
+
+                </div>
+                <hr>
+-->
+
+
+
+
+
+
+
+
+        <div class="container">
+          <div class="h-25">
+              <div class = "card">
+                  <div class="card-header" style="font-size: 150%">
+                      <img style="height:25px;width: 20px; display: inline-block;" src="{% static 'browse/assets/table.png' %}"> <h3 style="display: inline-block;"> Отображение метаболитов, удовлетворяющих настройкам фильтра </h3>
+                  </div>
+                <div class="card-body" >
+                          <!--  <div class="text-center mt-5"> -->
+        <div class="table-responsive">
+            <table id="met_table" class="compact cell-border stripe" width="100%" height="50%">
+                <thead>
+                    <tr>
+                        <td> HMDB ID  </td>
+                        <td> Метаболит </td>
+                        <td> Направление изменения </td>
+                        <td> Исследование  </td>
+                        <td> Тип биообразца  </td>
+                        <td> Медикаментозная терапия  </td>
+                        <td> Количество инъекций  </td>
+                        <td> Период между инъекцией и оценкой реакции  </td>
+                        <td> RAW p-value  </td>
+                        <td> FDR  </td>
+                        <td> VIP  </td>
+                        <td> Другие метаболиты, выявленные в исследовании</td>
+                        </tr>
+                        <tbody>
+                        {% for item in met_table %}
+                            <tr>
+                                <td> {{ item.hmdb_id }} </td>
+                                <td> {{ item.metabolite_paper_field  }} </td>
+                                <td> {{ item.regulation_in_non_response_group  }} </td>
+                                <td> {{ item.pubmed_id  }} </td>
+                                <td> {{ item.specimen  }} </td>
+                                <td> {{ item.drug_therapy  }} </td>
+                                <td> {{ item.number_of_injections  }} </td>
+                                <td> {{ item.period_between_injection_and_response_evaluation  }} </td>
+                                <td> {{ item.raw_p_value  }} </td>
+                                <td> {{ item.fdr  }} </td>
+                                <td> {{ item.vip  }} </td>
+                                <td>  Другие метаболиты из того же исследования </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </div>
+            </div>
+            </div>
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src="{% static 'browse/js/browse_metabolites_diabetes.js' %}"></script>
+
+{% endblock content %}

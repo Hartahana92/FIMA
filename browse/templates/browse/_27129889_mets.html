@@ -1,0 +1,312 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED27129889" %}' target="_blank">27129889</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> C14-carnitine </td>
+                    <td> 0.04 ± 0.02 μmol/L </td>
+                    <td> 0.02 ± 0.02 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C6-carnitine </td>
+                    <td> 0.06 ± 0.09 μmol/L </td>
+                    <td> 0.06 ± 0.06 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.9906 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C8-carnitine </td>
+                    <td> 0.06 ± 0.11 μmol/L </td>
+                    <td> 0.08 ± 0.09 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.3164 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C5-carnitine </td>
+                    <td> 0.18 ± 0.09 μmol/L </td>
+                    <td> 0.10 ± 0.04 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C16-carnitine </td>
+                    <td> 0.38 ± 0.21 μmol/L </td>
+                    <td> 0.19 ± 0.08 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C4-carnitine </td>
+                    <td> 0.54 ± 0.40 μmol/L </td>
+                    <td> 0.22 ± 0.10 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C3-carnitine </td>
+                    <td> 1.230 ± 0.72 μmol/L </td>
+                    <td> 0.58 ± 0.22 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> tyrosine </td>
+                    <td> 114.95 ± 35.17 μmol/L </td>
+                    <td> 88.03 ± 16.80 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000158 </td>
+                </tr>
+            
+                <tr>
+                    <td> histidine </td>
+                    <td> 122.48 ± 34.12 μmol/L </td>
+                    <td> 96.47 ± 20.59 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000177 </td>
+                </tr>
+            
+                <tr>
+                    <td> leucine </td>
+                    <td> 129.40 ± 35.12 μmol/L </td>
+                    <td> 116.60 ± 23.82 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0141 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000687 </td>
+                </tr>
+            
+                <tr>
+                    <td> valine </td>
+                    <td> 136.60 ± 35.57 μmol/L </td>
+                    <td> 165.62 ± 28.08 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000883 </td>
+                </tr>
+            
+                <tr>
+                    <td> alanine </td>
+                    <td> 146.50 ± 53.53 μmol/L </td>
+                    <td> 141.98 ± 32.66 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.5434 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> ornithine </td>
+                    <td> 197.29 ± 117.34 μmol/L </td>
+                    <td> 152.54 ± 64.60 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0046 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000214 </td>
+                </tr>
+            
+                <tr>
+                    <td> methionine </td>
+                    <td> 21.02 ± 6.66 μmol/L </td>
+                    <td> 33.09 ± 6.38 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> arginine </td>
+                    <td> 224.94 ± 72.52 μmol/L </td>
+                    <td> 123.76 ± 43.14 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000517 </td>
+                </tr>
+            
+                <tr>
+                    <td> citrulline </td>
+                    <td> 23.41 ± 10.00 μmol/L </td>
+                    <td> 42.14 ± 12.77 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> aspartate </td>
+                    <td> 32.90 ± 11.01 μmol/L </td>
+                    <td> 48.33 ± 27.02 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0006 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> glycine </td>
+                    <td> 408.80 ± 107.40 μmol/L </td>
+                    <td> 420.01 ± 74.52 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.4824 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> glutamate </td>
+                    <td> 76.50 ± 21.56 μmol/L </td>
+                    <td> 87.55 ± 27.25 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0234 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C2-carnitine </td>
+                    <td> 8.52 ± 4.70 μmol/L </td>
+                    <td> 8.76 ± 2.94 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.714 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> phenylalanine </td>
+                    <td> 97.25 ± 31.82 μmol/L </td>
+                    <td> 68.00 ± 13.33 μmol/L </td>
+                    <td> – </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000159 </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

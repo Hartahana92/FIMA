@@ -1,0 +1,44 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+<div class="text-center mt-5">
+
+    <a href="{% url "browse_studies" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;""> <p style="text-align:left;"> &nbsp;&nbsp;&nbsp;&nbsp;Публикации </p></a>
+    <p style="text-align:left; display: inline-block; float: left;">  &nbsp;/  &nbsp;</p>
+    <a href="{% url "browse_studies_diabetes_choice" %}" style="text-decoration: none;color: #696969 !important; display: inline-block; float: left;"> Диабет <p style="text-align:left;">  </p></a>
+     <!-- <h1 style="text-align: left"> &nbsp;&nbsp;&nbsp;&nbsp;Укажите, какие публикации вам нужны: </h1> -->
+
+ <br> <br>
+
+<a href="{% url "browse_studies_diabetes" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #ed4a4a;">
+        <figcaption>
+              <img src="{% static 'browse/molecule.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000"> &nbsp;&nbsp; </h2>
+              <h5 style="text-align:left; size:120%; color: #000000"> Маркеры развития заболевания&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h5>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+<!--
+&nbsp;
+<a href="{% url "browse_studies_lung_ther" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #4aed80;">
+        <figcaption>
+              <img src="{% static 'browse/medicine.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000"> &nbsp;&nbsp; </h2>
+              <h5 style="text-align:left; size:120%; color: #000000"> Выбор лекарственной терапии&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h5>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+-->
+
+
+<div class="position-absolute top-100 start-50 translate-middle">
+    <p>copyright © ЛФиМА bebris</p>
+</div>
+</div>
+{% endblock content %}

@@ -1,0 +1,523 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+
+
+    <!--
+    				<div class="card">
+    					<div class="card-header">
+    						<h4>Информация о статье</h4>
+    					</div>
+    					<div class="card-body">
+    						<ul>
+    							<li><h4>Lung Cancer. 2011 Nov;74(2):284-92. doi: 10.1016/j.lungcan.2011.02.008. Epub  2011 Mar 15.</h4></li>
+    							<li><H4><a  href="https://www.ncbi.nlm.nih.gov/pubmed/21411176" target="_blank"> A metabolomic approach to lung cancer.</a></H4></li>
+    							<li><h4 > Hori S, Nishiumi S, Kobayashi K, Shinohara M, Hatakeyama Y, Kotani Y, Hatano N, Maniwa Y, Nishio W, Bamba T, Fukusaki E, Azuma T, Takenawa T, Nishimura Y, Yoshida M.</h4></li>
+    						</ul>
+    					</div>
+    				</div>
+    -->
+
+
+
+    	<div class="container">
+        <br>
+        <div class="card">
+          <div class="card-header">
+            				<h3>Отображение подробной информации об исследовании</h3>
+          </div>
+        <div class="card-body">
+
+
+
+          <table class= "table table-border table-hover bg" cellspacing="6"  >
+            <thead style="background-color: #DEDEDE;">
+              <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Информация о статье</h4></th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Pubmed ID</td>
+
+                    <td> <a href=https://www.ncbi.nlm.nih.gov/pubmed/28168355> 28168355 </a> </td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Авторы</td>
+
+                    <td>Agnieszka Klupczynska, Paweł Dereziński, Timothy J Garrett, Vanessa Y Rubio, Wojciech Dyszkiewicz, Mariusz Kasprzyk, Zenon J Kokot </td>
+                </tr>
+                <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Страна</td>
+
+                    <td>Poland</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Год публикации</td>
+
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Функция исследования</td>
+
+                    <td>diagnosis</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Сравниваемые группы</td>
+
+                    <td>adenocarcinoma, squamous cell carcinoma</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        
+                        <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                          <thead style="background-color: #DEDEDE;">
+                            <tr><th colspan="3" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Дизайн эксперимента</h4></th></tr>
+                            <tr>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #1 </td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                                  <td>adenocarcinoma, squamous cell carcinoma</td>
+                                  <td>healthy</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                                  <td>50</td>
+                                  <td>25</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                                  <td>28, 22</td>
+                                  <td>14, 11</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                                  <td>65 (53-86)</td>
+                                  <td>64 (50-78)</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    
+
+      <table class= "table table-border table-hover bg" cellspacing="6"  >
+        <thead style="background-color: #DEDEDE;">
+          <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Инструментальный анализ</h4></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Хроматографическое разделение  </td>
+
+                <td>LC</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Источник ионизации </td>
+
+                <td>ESI</td>
+            </tr>
+            <tr>
+            <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Режим положительной/отрицательной ионизации </td>
+
+                <td>positive</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Масс-анализатор </td>
+
+                <td>Q-Orbitrap</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Уровень идентификации </td>
+
+                <td>MS/MS </td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Программное обеспечение для обработки данных </td>
+
+                <td>MZmine 2.19 software</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <table class= "table table-border table-hover bg" cellspacing="6"  >
+      <thead style="background-color: #DEDEDE;">
+        <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Процессинг данных</h4></th></tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Поиск по базам данных  </td>
+
+              <td>In-house library, HMDB, mzCloud</td>
+          </tr>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Статистический анализ </td>
+
+              <td>t-test</td>
+          </tr>
+          <tr>
+          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Метод классификации </td>
+
+              <td>ROC curve analysis (Monte-Carlo cross validation)</td>
+          </tr>
+
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <br>
+    <div class="card">
+    					<div class="card-header" >
+    						<h4>Выявленные значимые метаболиты</h4>
+    					</div>
+    					<div class="card-body" role="tablist">
+    						<ul class="nav nav-tabs">
+    							<li class="nav-item">
+    								<a class="nav-link active" data-toggle='tab' href="#tab1" role="tab" aria-controls="home" aria-expanded="true">Метод дифференциального анализа</a>
+    							</li>
+    							<li class="nav-item">
+    								<a class="nav-link " data-toggle='tab' href="#tab2" role="tab" aria-controls="profile">Классификационный метод</a>
+    							</li>
+    						</ul>
+    			            <div class="tab-content">
+    			            	<div class="tab-pane fade show active" role='tabpanel' id="tab1" style="width: 100% !important;">
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table1">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (заболевание)</th>
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (контроль)</th>
+    										<th style="font-family: monospace;color:black !important">Fold change (case/control)</th>
+    										<th style="font-family: monospace;color:black !important">P-value</th>
+    										<th style="font-family: monospace;color:black !important">FDR</th>
+    										<th style="font-family: monospace;color:black !important">VIP</th>
+                                            <th > HMDB </th>
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> carnitine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.12 </td>
+                        <td> 0.00249 </td>
+                        <td> 0.01772 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000062 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> leucine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.9 </td>
+                        <td> 0.00612 </td>
+                        <td> 0.03867 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000687 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> histidine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.9 </td>
+                        <td> 0.00127 </td>
+                        <td> 0.01002 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000177 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tyrosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.87 </td>
+                        <td> 7e-05 </td>
+                        <td> 0.0013 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000158 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.83 </td>
+                        <td> 0.00121 </td>
+                        <td> 0.01002 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.81 </td>
+                        <td> 0.00049 </td>
+                        <td> 0.00565 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxo-l-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.79 </td>
+                        <td> 0.00035 </td>
+                        <td> 0.00454 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> propionylcarnitine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.77 </td>
+                        <td> 0.00221 </td>
+                        <td> 0.01652 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000824 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> thiomorpholine 3-carboxylate </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.72 </td>
+                        <td> 0.00045 </td>
+                        <td> 0.00553 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> valerylcarnitine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.66 </td>
+                        <td> 5e-05 </td>
+                        <td> 0.00103 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0013128 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> alpha-N-phenylacetyl-L-glutamine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.58 </td>
+                        <td> 0.0011 </td>
+                        <td> 0.01002 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 1-amino-propan-2-ol </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.57 </td>
+                        <td> 4e-05 </td>
+                        <td> 0.00087 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			           <div class="tab-pane fade" role='tabpanel' id="tab2" style="width: 100% !important;">
+
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table2">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+
+    											<th style="font-family: monospace;color:black !important">Значение отсечки</th>
+
+    											<th style="font-family: monospace;color:black !important">AUROC (95%CI)</th>
+
+    											<th style="font-family: monospace;color:black !important">Чувствительность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Специфичность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Точность (%)</th>
+
+                                                <th> HMDB </th>
+
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> carnitine </td>
+                        <td> – </td>
+                        <td> 0.656 (0.511–0.776) </td>
+                        <td> 0.52 </td>
+                        <td> 0.76 </td>
+                        <td> – </td>
+                        <td> HMDB0000062 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> leucine </td>
+                        <td> – </td>
+                        <td> 0.628 (0.494–0.765) </td>
+                        <td> 0.65 </td>
+                        <td> 0.6 </td>
+                        <td> – </td>
+                        <td> HMDB0000687 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> histidine </td>
+                        <td> – </td>
+                        <td> 0.687 (0.549–0.813) </td>
+                        <td> 0.56 </td>
+                        <td> 0.68 </td>
+                        <td> – </td>
+                        <td> HMDB0000177 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tyrosine </td>
+                        <td> – </td>
+                        <td> 0.681 (0.545–0.799) </td>
+                        <td> 0.58 </td>
+                        <td> 0.72 </td>
+                        <td> – </td>
+                        <td> HMDB0000158 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> methionine </td>
+                        <td> – </td>
+                        <td> 0.685 (0.541–0.795) </td>
+                        <td> 0.6 </td>
+                        <td> 0.68 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> 0.717 (0.599–0.843) </td>
+                        <td> 0.71 </td>
+                        <td> 0.64 </td>
+                        <td> – </td>
+                        <td> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxo-l-proline </td>
+                        <td> – </td>
+                        <td> 0.705 (0.560–0.813) </td>
+                        <td> 0.63 </td>
+                        <td> 0.72 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> propionylcarnitine </td>
+                        <td> – </td>
+                        <td> 0.727 (0.598–0.837) </td>
+                        <td> 0.67 </td>
+                        <td> 0.72 </td>
+                        <td> – </td>
+                        <td> HMDB0000824 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> thiomorpholine 3-carboxylate </td>
+                        <td> – </td>
+                        <td> 0.734 (0.588–0.853) </td>
+                        <td> 0.75 </td>
+                        <td> 0.68 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> valerylcarnitine </td>
+                        <td> – </td>
+                        <td> 0.754 (0.616–0.865) </td>
+                        <td> 0.71 </td>
+                        <td> 0.68 </td>
+                        <td> – </td>
+                        <td> HMDB0013128 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> alpha-N-phenylacetyl-L-glutamine </td>
+                        <td> – </td>
+                        <td> 0.731 (0.608–0.835) </td>
+                        <td> 0.56 </td>
+                        <td> 0.8 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 1-amino-propan-2-ol </td>
+                        <td> – </td>
+                        <td> 0.799 (0.686–0.892) </td>
+                        <td> 0.71 </td>
+                        <td> 0.76 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			            </div>
+    					</div>
+    				</div>
+
+    			</div>
+
+
+
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/paper_try.js" %}'></script>
+
+    {% endblock content %}
+    

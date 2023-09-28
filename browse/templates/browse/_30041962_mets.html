@@ -1,0 +1,188 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED30041962" %}' target="_blank">30041962</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> 4-Imidazoleacetic acid </td>
+                    <td> 0.82 </td>
+                    <td> < 0.001 </td>
+                    <td> - </td>
+                    <td> 2.7027 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> δ-Valerolactam </td>
+                    <td> 0.60 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 2.2707 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> N-Methylethanolamine phosphate </td>
+                    <td> 0.62 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 2.2423 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> PC(16:0/18:1) </td>
+                    <td> 1.32 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 2.223 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> PC (9:0) </td>
+                    <td> 0.82 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 2.1755 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> Dimethylglycine </td>
+                    <td> 1.31 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 2.1212 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> Oleanolic Acid Acetate </td>
+                    <td> 0.79 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 2.079 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> SM(d18:2/14:0) </td>
+                    <td> 1.27 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 1.9978 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> Ganglioside GT1b (d18:0/14:0) </td>
+                    <td> 1.22 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 1.9664 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> 3-Methylhistidine </td>
+                    <td> 0.69 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 1.9229 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> PC(27:1(OH)) </td>
+                    <td> 0.75 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 1.8994 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> Dillapional </td>
+                    <td> 0.82 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 1.8917 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+                <tr>
+                    <td> PC(25:1(OH)) </td>
+                    <td> 0.79 </td>
+                    <td> < 0.05 </td>
+                    <td> - </td>
+                    <td> 1.8809 </td>
+                    <td> Y</td>
+                    <td> - </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try_br.js" %}'></script>
+
+    {% endblock content %}
+
+    

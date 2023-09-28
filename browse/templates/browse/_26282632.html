@@ -1,0 +1,875 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+
+
+    <!--
+    				<div class="card">
+    					<div class="card-header">
+    						<h4>Информация о статье</h4>
+    					</div>
+    					<div class="card-body">
+    						<ul>
+    							<li><h4>Lung Cancer. 2011 Nov;74(2):284-92. doi: 10.1016/j.lungcan.2011.02.008. Epub  2011 Mar 15.</h4></li>
+    							<li><H4><a  href="https://www.ncbi.nlm.nih.gov/pubmed/21411176" target="_blank"> A metabolomic approach to lung cancer.</a></H4></li>
+    							<li><h4 > Hori S, Nishiumi S, Kobayashi K, Shinohara M, Hatakeyama Y, Kotani Y, Hatano N, Maniwa Y, Nishio W, Bamba T, Fukusaki E, Azuma T, Takenawa T, Nishimura Y, Yoshida M.</h4></li>
+    						</ul>
+    					</div>
+    				</div>
+    -->
+
+
+
+    	<div class="container">
+        <br>
+        <div class="card">
+          <div class="card-header">
+            				<h3>Отображение подробной информации об исследовании</h3>
+          </div>
+        <div class="card-body">
+
+
+
+          <table class= "table table-border table-hover bg" cellspacing="6"  >
+            <thead style="background-color: #DEDEDE;">
+              <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Информация о статье</h4></th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Pubmed ID</td>
+
+                    <td> <a href=https://www.ncbi.nlm.nih.gov/pubmed/26282632> 26282632 </a> </td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Авторы</td>
+
+                    <td>Johannes F Fahrmann, Kyoungmi Kim, Brian C DeFelice, Sandra L Taylor, David R Gandara, Ken Y Yoneda, David T Cooke, Oliver Fiehn, Karen Kelly, Suzanne Miyamoto </td>
+                </tr>
+                <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Страна</td>
+
+                    <td>US</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Год публикации</td>
+
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Функция исследования</td>
+
+                    <td>diagnosis</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Сравниваемые группы</td>
+
+                    <td>adenocarcinoma</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        
+                        <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                          <thead style="background-color: #DEDEDE;">
+                            <tr><th colspan="3" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Дизайн эксперимента</h4></th></tr>
+                            <tr>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #1 </td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                                  <td>adenocarcinoma</td>
+                                  <td>healthy</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                                  <td>49</td>
+                                  <td>31</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                                  <td>17, 32</td>
+                                  <td>11, 20</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                                  <td>65.9 ± 9.87</td>
+                                  <td>64.1 ± 8.97</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #2 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>adenocarcinoma</td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>43</td>
+                          <td>43</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>21, 22</td>
+                          <td>21, 22</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td>67.3 ± 10.10</td>
+                          <td>65.9 ± 8.05</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #3 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>adenocarcinoma</td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>52</td>
+                          <td>31</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>17, 35</td>
+                          <td>11, 20</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td>65.9 ± 9.66</td>
+                          <td>64.1 ± 8.97</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #4 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>adenocarcinoma</td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>43</td>
+                          <td>43</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>21, 22</td>
+                          <td>21, 22</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td>67.3 ± 10.10</td>
+                          <td>65.9 ± 8.05</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+
+      <table class= "table table-border table-hover bg" cellspacing="6"  >
+        <thead style="background-color: #DEDEDE;">
+          <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Инструментальный анализ</h4></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Хроматографическое разделение  </td>
+
+                <td>GC</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Источник ионизации </td>
+
+                <td>EI</td>
+            </tr>
+            <tr>
+            <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Режим положительной/отрицательной ионизации </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Масс-анализатор </td>
+
+                <td>TOF</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Уровень идентификации </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Программное обеспечение для обработки данных </td>
+
+                <td>–</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <table class= "table table-border table-hover bg" cellspacing="6"  >
+      <thead style="background-color: #DEDEDE;">
+        <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Процессинг данных</h4></th></tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Поиск по базам данных  </td>
+
+              <td>UC Davis Metabolomics BinBase database</td>
+          </tr>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Статистический анализ </td>
+
+              <td>regress (by the covariates: age, gender and smoking history [packs per year]), permutation test</td>
+          </tr>
+          <tr>
+          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Метод классификации </td>
+
+              <td>random forest</td>
+          </tr>
+
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <br>
+    <div class="card">
+    					<div class="card-header" >
+    						<h4>Выявленные значимые метаболиты</h4>
+    					</div>
+    					<div class="card-body" role="tablist">
+    						<ul class="nav nav-tabs">
+    							<li class="nav-item">
+    								<a class="nav-link active" data-toggle='tab' href="#tab1" role="tab" aria-controls="home" aria-expanded="true">Метод дифференциального анализа</a>
+    							</li>
+    							<li class="nav-item">
+    								<a class="nav-link " data-toggle='tab' href="#tab2" role="tab" aria-controls="profile">Классификационный метод</a>
+    							</li>
+    						</ul>
+    			            <div class="tab-content">
+    			            	<div class="tab-pane fade show active" role='tabpanel' id="tab1" style="width: 100% !important;">
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table1">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (заболевание)</th>
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (контроль)</th>
+    										<th style="font-family: monospace;color:black !important">Fold change (case/control)</th>
+    										<th style="font-family: monospace;color:black !important">P-value</th>
+    										<th style="font-family: monospace;color:black !important">FDR</th>
+    										<th style="font-family: monospace;color:black !important">VIP</th>
+                                            <th > HMDB </th>
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> 3-phosphoglycerate </td>
+                        <td> 101 ± 64 </td>
+                        <td> 141 ± 171 </td>
+                        <td> 0.72 </td>
+                        <td> 0.846 </td>
+                        <td> 0.947 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> xylose </td>
+                        <td> 1035 ± 792 </td>
+                        <td> 1140 ± 729 </td>
+                        <td> 0.908 </td>
+                        <td> 0.164 </td>
+                        <td> 0.439 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltotriose </td>
+                        <td> 133 ± 107 </td>
+                        <td> 97 ± 146 </td>
+                        <td> 1.36 </td>
+                        <td> 0.003 </td>
+                        <td> 0.038 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tryptophan </td>
+                        <td> 14276 ± 4817 </td>
+                        <td> 15614 ± 6000 </td>
+                        <td> 0.91 </td>
+                        <td> 0.505 </td>
+                        <td> 0.74 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tryptophan </td>
+                        <td> 17526 ± 10639 </td>
+                        <td> 24922 ± 9245 </td>
+                        <td> 0.7 </td>
+                        <td> 0.001 </td>
+                        <td> 0.047 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltose </td>
+                        <td> 183 ± 200 </td>
+                        <td> 132 ± 169 </td>
+                        <td> 1.38 </td>
+                        <td> 0.078 </td>
+                        <td> 0.258 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> xylose </td>
+                        <td> 215 ± 138 </td>
+                        <td> 481 ± 558 </td>
+                        <td> 0.45 </td>
+                        <td> 0 </td>
+                        <td> 0.032 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyrophosphate </td>
+                        <td> 2153 ± 1526 </td>
+                        <td> 1108 ± 663 </td>
+                        <td> 1.94 </td>
+                        <td> 0 </td>
+                        <td> 0.015 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> adenosine-5-phosphate </td>
+                        <td> 259 ± 174 </td>
+                        <td> 178 ± 422 </td>
+                        <td> 1.46 </td>
+                        <td> 0 </td>
+                        <td> 0.004 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-phosphoglycerate </td>
+                        <td> 269 ± 190 </td>
+                        <td> 151 ± 84 </td>
+                        <td> 1.78 </td>
+                        <td> 0 </td>
+                        <td> 0.003 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> cellobiotol </td>
+                        <td> 277 ± 266 </td>
+                        <td> 144 ± 114 </td>
+                        <td> 1.93 </td>
+                        <td> 0 </td>
+                        <td> 0.015 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> cystine </td>
+                        <td> 3044 ± 2748 </td>
+                        <td> 5050 ± 2468 </td>
+                        <td> 0.6 </td>
+                        <td> 0 </td>
+                        <td> 0.002 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyrophosphate </td>
+                        <td> 3115 ± 2210 </td>
+                        <td> 1575 ± 3978 </td>
+                        <td> 1.98 </td>
+                        <td> 0 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltotriose </td>
+                        <td> 344 ± 295 </td>
+                        <td> 180 ± 209 </td>
+                        <td> 1.91 </td>
+                        <td> 0 </td>
+                        <td> 0.007 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> citrulline </td>
+                        <td> 359 ± 191 </td>
+                        <td> 461 ± 169 </td>
+                        <td> 0.78 </td>
+                        <td> 0.003 </td>
+                        <td> 0.037 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> cystine </td>
+                        <td> 3886 ± 1676 </td>
+                        <td> 4929 ± 1579 </td>
+                        <td> 0.79 </td>
+                        <td> 0.052 </td>
+                        <td> 0.201 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartate </td>
+                        <td> 4110 ± 2000 </td>
+                        <td> 2631 ± 942 </td>
+                        <td> 1.56 </td>
+                        <td> 0 </td>
+                        <td> 0.032 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> adenosine-5-phosphate </td>
+                        <td> 440 ± 346 </td>
+                        <td> 203 ± 177 </td>
+                        <td> 2.16 </td>
+                        <td> 0 </td>
+                        <td> 0.002 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> citrulline </td>
+                        <td> 471 ± 183 </td>
+                        <td> 632 ± 280 </td>
+                        <td> 0.75 </td>
+                        <td> 0 </td>
+                        <td> 0.011 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartate </td>
+                        <td> 4741 ± 2976 </td>
+                        <td> 1524 ± 846 </td>
+                        <td> 3.11 </td>
+                        <td> 0 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltose </td>
+                        <td> 704 ± 718 </td>
+                        <td> 326 ± 302 </td>
+                        <td> 2.16 </td>
+                        <td> 0 </td>
+                        <td> 0.015 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			           <div class="tab-pane fade" role='tabpanel' id="tab2" style="width: 100% !important;">
+
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table2">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+
+    											<th style="font-family: monospace;color:black !important">Значение отсечки</th>
+
+    											<th style="font-family: monospace;color:black !important">AUROC (95%CI)</th>
+
+    											<th style="font-family: monospace;color:black !important">Чувствительность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Специфичность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Точность (%)</th>
+
+                                                <th> HMDB </th>
+
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> 3-phosphoglycerate </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.699 (0.583, 0.815)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 30.2
+maltose+maltotriose+cystine+3-Phosphoglycerate=61.6 </td>
+                        <td> 72.1
+maltose+maltotriose+cystine+3-Phosphoglycerate=76.7 </td>
+                        <td> 51.2
+maltose+maltotriose+cystine+3-Phosphoglycerate=69.2 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> xylose </td>
+                        <td> – </td>
+                        <td> Bin_225393+aspartate+xylose+glutamate=0.820 (0.729, 0.911)
+Bin_225393+aspartate+xylose=0.806 (0.711, 0.901) </td>
+                        <td> 76.7
+Bin_225393+aspartate+xylose=74.4 </td>
+                        <td> 23.3
+Bin_225393+aspartate+xylose=53.5 </td>
+                        <td> 50.0
+Bin_225393+aspartate+xylose=67.4 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltotriose </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.699 (0.583, 0.815)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 79.1
+maltose+maltotriose=67.4 </td>
+                        <td> 48.8
+maltose+maltotriose=59.3 </td>
+                        <td> 64
+maltose+maltotriose=63.4 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tryptophan </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 39.5
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan=60.5 </td>
+                        <td> 65.1
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan=93.0 </td>
+                        <td> 52.3
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan=76.7 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> tryptophan </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 50.6
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan=77.1 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltose </td>
+                        <td> – </td>
+                        <td> 0.617 (0.496, 0.738)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.699 (0.583, 0.815)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 55.8 </td>
+                        <td> 69.8 </td>
+                        <td> 62.8 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> xylose </td>
+                        <td> – </td>
+                        <td> Bin_225393+aspartate+xylose+glutamate=0.874 (0.800, 0.947)
+Bin_225393+aspartate+xylose=0.864 (0.787, 0.942) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 53.8
+Bin_225393+aspartate+xylose=68.8 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyrophosphate </td>
+                        <td> – </td>
+                        <td> 0.744 (0.637, 0.852)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 66.3
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate=77.1 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> adenosine-5-phosphate </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 67.4
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=64.0 </td>
+                        <td> 76.7
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=90.7 </td>
+                        <td> 72.1
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=77.3 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-phosphoglycerate </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.880 (0.805, 0.954)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 69.9
+maltose+maltotriose+cystine+3-Phosphoglycerate=76.5 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> cellobiotol </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 71.1 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> cystine </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.880 (0.805, 0.954)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 66.3
+maltose+maltotriose+cystine=75.9 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyrophosphate </td>
+                        <td> – </td>
+                        <td> 0.807 (0.710, 0.904)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 60.5
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate=64.0 </td>
+                        <td> 95.4
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate=87.2 </td>
+                        <td> 77.9
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate=75.6 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltotriose </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.880 (0.805, 0.954)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 71.1
+maltose+maltotriose=71.7 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> citrulline </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.699 (0.583, 0.815)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 55.8
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=65.1 </td>
+                        <td> 76.7
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=81.4 </td>
+                        <td> 66.3 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> cystine </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.699 (0.583, 0.815)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.670 (0.552, 0.789) </td>
+                        <td> 58.1
+maltose+maltotriose+cystine=69.8 </td>
+                        <td> 79.1
+maltose+maltotriose+cystine=69.8 </td>
+                        <td> 68.6
+maltose+maltotriose+cystine=69.8 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartate </td>
+                        <td> – </td>
+                        <td> 0.741 (0.633, 0.848)
+Bin_225393+aspartate+xylose+glutamate=0.874 (0.800, 0.947)
+Bin_225393+aspartate+xylose=0.864 (0.787, 0.942) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 63.8
+Bin_225393+aspartate=68.1 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> adenosine-5-phosphate </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 68.7
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=75.3 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> citrulline </td>
+                        <td> – </td>
+                        <td> maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.880 (0.805, 0.954)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 67.5
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=79.5 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartate </td>
+                        <td> – </td>
+                        <td> 0.855 (0.771, 0.939)
+Bin_225393+aspartate+xylose+glutamate=0.820 (0.729, 0.911)
+Bin_225393+aspartate+xylose=0.806 (0.711, 0.901) </td>
+                        <td> 67.4
+Bin_225393+aspartate=70.9 </td>
+                        <td> 95.4
+Bin_225393+aspartate=74.4 </td>
+                        <td> 68.1
+Bin_225393+aspartate=72.2 </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> maltose </td>
+                        <td> – </td>
+                        <td> 0.741 (0.629, 0.853)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline=0.880 (0.805, 0.954)
+maltose+maltotriose+cystine+3-Phosphoglycerate+citrulline+pyrophosphate+tryptophan+adenosine-5-Phosphate=0.883 (0.812, 0.955) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 72.3 </td>
+                        <td> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			            </div>
+    					</div>
+    				</div>
+
+    			</div>
+
+
+
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/paper_try.js" %}'></script>
+
+    {% endblock content %}
+    

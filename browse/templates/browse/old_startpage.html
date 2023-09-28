@@ -1,0 +1,115 @@
+{% extends "browse/index.html" %}
+{% block content %}
+    <div class="text-center mt-5">
+        <h1>LCMD: Lung Cancer Metabolome Database <br> <br> </h1>
+    </div>
+    <h3>Introduction of LCMD</h3>
+
+    <p style="font-size: 120%;"> <br>
+                      Lung cancer is one of the most common causes of cancer worldwide, which was associated with high treatment cost and imposed great burdens. The 5&#8209;year postoperative survival rate for lung cancer is only about 13%, which is much lower than that of other cancers, suggesting urgent needs to dissect its pathogenesis mechanism and discover specific biomarkers. Although several proteins have been reported to be potential biomarkers for lung cancer detection, they present low accuracy for clinical use. Metabolomics has emerged as a promising tool for studying lung cancer. Many metabolites related to lung cancer have been reported in the literature but no databases are available for researchers to retrieve this information.<br><br>
+    							Here we construct the first <b>Lung Cancer Metabolome Database (LCMD),</b> which is a freely available online database depositing <b>2013 lung cancer-related metabolites</b> identified by <b>65 mass spectrometry&#8209;based lung cancer metabolomics studies.</b> Researchers can explore LCMD by two ways.
+    <ol style="font-size: 120%;">
+    <li>
+    									First, by applying various filters in <b>“Browse Metabolites”</b> mode, users can get a list of lung cancer&#8209;related metabolites that satisfy the filter specifications. For each metabolite, users can know its fold change (cancer/normal), the statistical significance (p-value) of the fold change and the (cancer vs. normal) comparative study designs of all the mass spectrometry&#8209;based metabolomics studies that identify this metabolite as a lung cancer-related metabolite.
+    </li>
+    <li>
+    									Second, by applying various filters in <b>“Browse Studies”</b> mode, users can get a list of mass spectrometry&#8209;based metabolomics studies that satisfy the filter specifications. For each study, users can know the (cancer vs. normal) sample information, types of mass spectrometry (MS) being used, MS data processing software being used, differential analysis methods being used, and all the identified lung cancer-related metabolites. Additionally, a graphical summary to introduce the comparative study design is given. It is envisioned that LCMD can provide curated information to facilitate the metabolomics study of lung cancer.<br><br>
+    </li>
+    </ol>
+
+
+
+
+
+        <div class="container">
+            <h3>Statistics of LCMD</h3>
+            <br>
+            <h2>(I) Statistics of the 65 collected mass spectrometry&#8209;based lung cancer metabolomics studies <br></h2><br>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                  <div class="card-header" style="font-size: 130%">
+                      Classify the studies by year
+                      Classify the studies by biospecimens used
+                  </div>
+                  <div class="card-body" >
+                          {{ graph_div_1|safe }}
+                  </div>
+            </div>
+          </div>
+
+
+        <div class="container">
+            <div class="row  mt-5 mb-5">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mx-auto">
+                    <div class="card">
+                          <div class="card-header" style="font-size: 130%">
+                              Classify the studies by biospecimens used
+                          </div>
+                          <div class="card-body" >
+                                  {{ graph_div_2|safe }}
+                          </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mx-auto">
+                    <div class="card">
+                          <div class="card-header" style="font-size: 130%">
+                              Classify the studies by chromatography used
+                          </div>
+                          <div class="card-body" >
+                                  {{ graph_div_3|safe }}
+                          </div>
+                    </div>
+                </div>
+          </div>
+
+          <div class="container">
+                <div class="card">
+                      <div class="card-header" style="font-size: 130%">
+                          Classify the studies by country
+                      </div>
+                      <div class="card-body" >
+                              {{ graph_div_4|safe }}
+                    </div>
+                </div>
+
+
+            <br><br>
+            <h2>(II) Statistics of the 2013 collected lung cancer-related metabolites</h2>
+            <div class="container">
+                <div class="row  mt-5 mb-5">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mx-auto">
+
+                        <div class="card">
+                              <div class="card-header" style="font-size: 130%">
+                                  Top 20 of metabolites
+                              </div>
+                              <div class="card-body" >
+                                      {{ graph_div_5|safe }}
+                              </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mx-auto">
+
+                        <div class="card">
+                              <div class="card-header" style="font-size: 130%">
+                                  Classify the metabolites by chemical taxonomy
+                              </div>
+                              <div class="card-body" >
+                                      {{ graph_div_6|safe }}
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <p>копирайт © ЛФиМА bebris</p>
+                    </div>
+
+
+
+
+
+{% endblock content %}

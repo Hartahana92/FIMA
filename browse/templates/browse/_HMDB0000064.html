@@ -1,0 +1,861 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+
+    	<div class="container">
+    		<br>
+    		<div class = "card">
+    				<div class="card-header">
+    						<h3 style="display: inline-block;"> Отображение информации для HMDB0000064 Creatine </h3>
+    				<h5> Метаболит наблюдался в исследованиях <a style="font-family: monospace;" href='{% url "PUBMED32693607" %}' target="_blank">32693607<a>, <a style="font-family: monospace;" href='{% url "PUBMED34083687" %}' target="_blank">34083687<a>, <a style="font-family: monospace;" href='{% url "PUBMED30099851" %}' target="_blank">30099851<a>, <a style="font-family: monospace;" href='{% url "PUBMED34282765" %}' target="_blank">34282765<a>, <a style="font-family: monospace;" href='{% url "PUBMED30439409" %}' target="_blank">30439409<a>, <a style="font-family: monospace;" href='{% url "PUBMED27255828" %}' target="_blank">27255828<a>, <a style="font-family: monospace;" href='{% url "PUBMED26762741" %}' target="_blank">26762741<a></h5></div></div>
+
+
+    			<div class="card-body">
+
+
+
+
+    				<table class="table table-border " style="width: 100%;table-layout: fixed;" id="hmdb">
+    					<thead style="background-color: #DEDEDE;">
+    						<td colspan="2"><h4 style="float: left;">Информация о метаболите</h4></td>
+    					</thead>
+    					<tbody style="background-color: white;">
+    						<tr>
+    							<td style="width: 40%;font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;" >HMDB ID</td>
+    							<td style="font-family: monospace;color:black !important">HMDB0000064</td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Синонимы</td>
+    							<td style="font-family: monospace;color:black !important">
+    								<div style="overflow-y: auto;height: 150px;">
+
+    										<h6>((Amino(imino)methyl)(methyl)amino)acetic acid</h6>
+<h6>(alpha-Methylguanido)acetic acid</h6>
+<h6>(N-Methylcarbamimidamido)acetic acid</h6>
+<h6>alpha-Methylguanidino acetic acid</h6>
+<h6>Creatin</h6>
+<h6>Kreatin</h6>
+<h6>Methylglycocyamine</h6>
+<h6>N-(Aminoiminomethyl)-N-methylglycine</h6>
+<h6>N-[(e)-AMINO(imino)methyl]-N-methylglycine</h6>
+<h6>N-Amidinosarcosine</h6>
+<h6>N-Carbamimidoyl-N-methylglycine</h6>
+<h6>N-Methyl-N-guanylglycine</h6>
+<h6>((Amino(imino)methyl)(methyl)amino)acetate</h6>
+<h6>(a-Methylguanido)acetate</h6>
+<h6>(a-Methylguanido)acetic acid</h6>
+<h6>(alpha-Methylguanido)acetate</h6>
+<h6>(Α-methylguanido)acetate</h6>
+<h6>(Α-methylguanido)acetic acid</h6>
+<h6>(N-Methylcarbamimidamido)acetate</h6>
+<h6>a-Methylguanidino acetate</h6>
+<h6>a-Methylguanidino acetic acid</h6>
+<h6>alpha-Methylguanidino acetate</h6>
+<h6>Α-methylguanidino acetate</h6>
+<h6>Α-methylguanidino acetic acid</h6>
+<h6>Cosmocair C 100</h6>
+<h6>Creatine hydrate</h6>
+<h6>Krebiozon</h6>
+<h6>Methylguanidoacetate</h6>
+<h6>Methylguanidoacetic acid</h6>
+<h6>N-(Aminoiminomethyl)-N-methyl-glycine</h6>
+<h6>Phosphagen</h6>
+<h6>[[Amino(imino)methyl](methyl)amino]acetate</h6>
+<h6>[[Amino(imino)methyl](methyl)amino]acetic acid</h6>
+
+
+    								</div>
+    							</td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Химическая формула</td>
+    							<td style="font-family: monospace;color:black !important">C4H9N3O2</td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Название в ИЮПАК</td>
+    							<td style="font-family: monospace;color:black !important"><div style="width: 100%;overflow-x: auto;">2-(N-methylcarbamimidamido)acetic acid</div></td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Регистрационный номер CAS</td>
+    							<td style="font-family: monospace;color:black !important">57-00-1</td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Моноизотопная молекулярная масса</td>
+    							<td style="font-family: monospace;color:black !important">131.069476547</td>
+    						</tr>
+    						<tr style="background-color: #DEDEDE !important;">
+    							<td colspan="2"><h4 style="float: left;">Химическая систематика</h4></td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Суперкласс</td>
+    							<td style="font-family: monospace;color:black !important">Organic acids and derivatives</td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Класс</td>
+    							<td style="font-family: monospace;color:black !important">Carboxylic acids and derivatives</td>
+    						</tr>
+    						<tr>
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Подкласс</td>
+    							<td style="font-family: monospace;color:black !important">Amino acids, peptides, and analogues</td>
+    						</tr>
+    						<tr style="background-color: #DEDEDE !important;">
+    							<td colspan="2"><h4 style="float: left;">Биологические свойства</h4></td>
+    						</tr>
+
+    						<!-- herehereherehereherehereherehereherehere --><!-- herehereherehereherehereherehereherehere -->
+    						<tr>
+    								<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;" colspan="2">Нормальные концентрации:</td>
+    						</tr>
+    						<tr>
+    								<td colspan="2">
+                                            <table border="0" class="dataframe cell-border hover stripe display" id="table2">
+  <thead>
+    <tr style="text-align: left;">
+      <th>Биообразец</th>
+      <th>Значение</th>
+      <th>Возраст</th>
+      <th>Пол</th>
+      <th>Состояние</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Blood</td>
+      <td>33.8 +/- 37.7 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Heart Transplant</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>40.3 (28.3-56.6) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Cirrhosis</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>528 +/- 42 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Male</td>
+      <td>Hypermethioninemia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>25.7  (16.5 -  30.8) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Cirrhosis</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>30.3 +/- 12.8  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy with fetuses with trisomy 18</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>35.6 +/- 15.15  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>34.7 (10.6)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Early preeclampsia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>37.4 (13.0) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>75 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Male</td>
+      <td>Cerebral creatine deficiency syndrome 1</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>1 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Female</td>
+      <td>Cerebral creatine deficiency syndrome 3</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>43.2 +/- 18.10 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Schizophrenia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>25.5 (11.41)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy with fetus having congenital heart defect</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>23.84 (11.5)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>1022.901 +/- 231.298 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Uremia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>41.5 (5.9)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Late-onset preeclampsia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>33.4 (15.6)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>121.89(372.94) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Heart failure with reduced ejection fraction</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>37.4 (13.3)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Down syndrome pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>34.4 (11.8)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>29.86 +/- 19.99 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Alzheimer's disease</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>26.61 +/- 5.64 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Frontotemporal lobe dementia</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>19.48 +/- 12.88 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Lewy body disease</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>37.0 (0.0-197.0) umol/mmol creatinine</td>
+      <td>Not Specified</td>
+      <td>Both</td>
+      <td>Lung cancer</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>1540 umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Rhabdomyolysis</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>233.588 +/- 539.846 umol/mmol creatinine</td>
+      <td>Children (1 - 13 years old)</td>
+      <td>Not Specified</td>
+      <td>Eosinophilic esophagitis</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>31-40 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Female</td>
+      <td>Cerebral creatine deficiency syndrome 3</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>220 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Male</td>
+      <td>Cerebral creatine deficiency syndrome 1</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>54.8 +/-  21.0 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>87 +/- 19 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>30.1 +/- 12.3 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>10-44 uM</td>
+      <td>Not Specified</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>30-80 uM</td>
+      <td>Not Specified</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>5-50 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>17-109 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>84.0 +/- 23.2 uM</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>53.0 (17.0 - 82.0) uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>32.22 +/- 16.42 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>74.0458 +/- 25.191 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>50.77(21.53) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>33.8-75.8 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>36.7 +/- 28.3 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Breast Milk</td>
+      <td>51.6 +/- 24.5 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Cerebrospinal Fluid (CSF)</td>
+      <td>44 +/- 13 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>8.32 +/- 3.30 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>30.12  +/-  18.36 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>23.2 +/- 29.4 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>30.7 +/- 14.6 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>33.9 +/- 45.9 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>25.94 +/- 9.75 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>113.0 (0.00-654.0) umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>113(0-654) umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>0.00082 +/- 0.0011 umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>&lt;35 umol/mmol creatinine</td>
+      <td>Not Specified</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>0.00-404.37 umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>25-776 umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>10-1350 umol/mmol creatinine</td>
+      <td>Children (1 - 18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>46 (3-448) umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>26.0 (5.0-95.0) umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>46.0 (9.0-135.0) umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>11.30 umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>106.76 umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>497.145 +/- 435.142 umol/mmol creatinine</td>
+      <td>Children (1 - 13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>6-1208 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>11-244 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>17-720 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>&lt;70 umol/mmol creatinine</td>
+      <td>Not Specified</td>
+      <td>Not Specified</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>4.66-455.3 umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>13.68(4.63-104.0) umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Female</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>14.93(4.74-455.8) umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Male</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>1-1.8 umol/mmol creatinine</td>
+      <td>Newborn (0-30 days old)</td>
+      <td>Both</td>
+      <td>Normal</td>
+    </tr>
+  </tbody>
+</table>
+    										<!-- normal table-->
+    								</td>
+    						</tr>
+    						<tr>
+    								<td colspan="2" style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;">Аномальные концентрации:</td>
+    						</tr>
+    						<tr>
+    								<td colspan="2">
+                                        <table border="0" class="dataframe cell-border hover stripe display" id="table1">
+  <thead>
+    <tr style="text-align: left;">
+      <th>Биообразец</th>
+      <th>Значение</th>
+      <th>Возраст</th>
+      <th>Пол</th>
+      <th>Состояние</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Blood</td>
+      <td>33.8 +/- 37.7 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Heart Transplant</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>40.3 (28.3-56.6) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Cirrhosis</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>528 +/- 42 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Male</td>
+      <td>Hypermethioninemia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>25.7  (16.5 -  30.8) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Cirrhosis</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>30.3 +/- 12.8  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy with fetuses with trisomy 18</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>35.6 +/- 15.15  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>34.7 (10.6)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Early preeclampsia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>37.4 (13.0) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>75 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Male</td>
+      <td>Cerebral creatine deficiency syndrome 1</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>1 uM</td>
+      <td>Children (1-13 years old)</td>
+      <td>Female</td>
+      <td>Cerebral creatine deficiency syndrome 3</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>43.2 +/- 18.10 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Schizophrenia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>25.5 (11.41)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy with fetus having congenital heart defect</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>23.84 (11.5)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>1022.901 +/- 231.298 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Uremia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>41.5 (5.9)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Late-onset preeclampsia</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>33.4 (15.6)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>121.89(372.94) uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Heart failure with reduced ejection fraction</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>37.4 (13.3)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Down syndrome pregnancy</td>
+    </tr>
+    <tr>
+      <td>Blood</td>
+      <td>34.4 (11.8)  uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Pregnancy</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>29.86 +/- 19.99 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Alzheimer's disease</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>26.61 +/- 5.64 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Male</td>
+      <td>Frontotemporal lobe dementia</td>
+    </tr>
+    <tr>
+      <td>Saliva</td>
+      <td>19.48 +/- 12.88 uM</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Both</td>
+      <td>Lewy body disease</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>37.0 (0.0-197.0) umol/mmol creatinine</td>
+      <td>Not Specified</td>
+      <td>Both</td>
+      <td>Lung cancer</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>1540 umol/mmol creatinine</td>
+      <td>Adult (&gt;18 years old)</td>
+      <td>Female</td>
+      <td>Rhabdomyolysis</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>233.588 +/- 539.846 umol/mmol creatinine</td>
+      <td>Children (1 - 13 years old)</td>
+      <td>Not Specified</td>
+      <td>Eosinophilic esophagitis</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>31-40 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Female</td>
+      <td>Cerebral creatine deficiency syndrome 3</td>
+    </tr>
+    <tr>
+      <td>Urine</td>
+      <td>220 umol/mmol creatinine</td>
+      <td>Children (1-13 years old)</td>
+      <td>Male</td>
+      <td>Cerebral creatine deficiency syndrome 1</td>
+    </tr>
+  </tbody>
+</table>
+    									<!-- abnormal table-->
+    								</td>
+    						</tr>
+    						<!-- herehereherehereherehereherehereherehere --><!-- herehereherehereherehereherehereherehere -->
+
+    						<tr>
+
+    							<td style="width: 40%; font-family: monospace;color:black !important;background-color: #f5f2f2;font-size:20px;"><a href='https://hmdb.ca/metabolites/HMDB0000001#biological_properties' target='_blank'>Pathways (Pathway Details in HMDB)</a></td>
+    							<td style="font-family: monospace;color:black !important">
+    								<div style="overflow-y: auto;height: 80px;">
+
+    								</div>
+    							</td>
+    						</tr>
+
+
+
+    					</tbody>
+    				</table>
+
+    		</div>
+    	</div>
+    	</div>
+    	<div class="text-center mt-5">
+    			<p>копирайт © ЛФиМА bebris</p>
+    	</div>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+        <script type="text/javascript" src='{% static "browse/js/meta_info.js" %}'></script>
+    {% endblock content %}
+    

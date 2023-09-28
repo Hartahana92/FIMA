@@ -1,0 +1,276 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED23749868" %}' target="_blank">23749868</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> dihydrosphingosine </td>
+                    <td> 0.022 uM </td>
+                    <td> 0.022 uM </td>
+                    <td> 1 </td>
+                    <td> 0.84 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> sphingosine </td>
+                    <td> 0.031 uM </td>
+                    <td> 0.03 uM </td>
+                    <td> 1.03333333333333 </td>
+                    <td> 0.22 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000252 </td>
+                </tr>
+            
+                <tr>
+                    <td> C20:1-ceramide </td>
+                    <td> 0.035 uM </td>
+                    <td> 0.033 uM </td>
+                    <td> 1.06060606060606 </td>
+                    <td> 0.17 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C18:1-ceramide </td>
+                    <td> 0.046 uM </td>
+                    <td> 0.043 uM </td>
+                    <td> 1.06976744186047 </td>
+                    <td> 0.043 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> dihydroC16-ceramide </td>
+                    <td> 0.049 uM </td>
+                    <td> 0.047 uM </td>
+                    <td> 1.04255319148936 </td>
+                    <td> 0.32 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C26:1-ceramide </td>
+                    <td> 0.054 uM </td>
+                    <td> 0.052 uM </td>
+                    <td> 1.03846153846154 </td>
+                    <td> 0.12 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C14-ceramide </td>
+                    <td> 0.064 uM </td>
+                    <td> 0.066 uM </td>
+                    <td> 0.96969696969697 </td>
+                    <td> 0.16 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C22:1-ceramide </td>
+                    <td> 0.1 uM </td>
+                    <td> 0.096 uM </td>
+                    <td> 1.04166666666667 </td>
+                    <td> 0.048 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C26-ceramide </td>
+                    <td> 0.101 uM </td>
+                    <td> 0.096 uM </td>
+                    <td> 1.05208333333333 </td>
+                    <td> 0.049 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> dihydroS1P </td>
+                    <td> 0.11 uM </td>
+                    <td> 0.11 uM </td>
+                    <td> 1 </td>
+                    <td> 0.12 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C18-ceramide </td>
+                    <td> 0.15 uM </td>
+                    <td> 0.15 uM </td>
+                    <td> 1 </td>
+                    <td> 0.29 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C22-ceramide </td>
+                    <td> 0.36 uM </td>
+                    <td> 0.35 uM </td>
+                    <td> 1.02857142857143 </td>
+                    <td> 0.07 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C20-ceramide </td>
+                    <td> 0.4 uM </td>
+                    <td> 0.37 uM </td>
+                    <td> 1.08108108108108 </td>
+                    <td> 0.06 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C16-ceramide </td>
+                    <td> 0.43 uM </td>
+                    <td> 0.41 uM </td>
+                    <td> 1.04878048780488 </td>
+                    <td> 0.14 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> sphingosine 1-phosphate </td>
+                    <td> 0.78 uM </td>
+                    <td> 0.75 uM </td>
+                    <td> 1.04 </td>
+                    <td> 0.1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> HMDB0000277 </td>
+                </tr>
+            
+                <tr>
+                    <td> C24:1-ceramide </td>
+                    <td> 1 uM </td>
+                    <td> 0.96 uM </td>
+                    <td> 1.04166666666667 </td>
+                    <td> 0.07 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> C24-ceramide </td>
+                    <td> 2.64 uM </td>
+                    <td> 2.48 uM </td>
+                    <td> 1.06451612903226 </td>
+                    <td> 0.016 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> total ceramides </td>
+                    <td> 5.48 uM </td>
+                    <td> 5.21 uM </td>
+                    <td> 1.05182341650672 </td>
+                    <td> 0.021 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

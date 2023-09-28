@@ -1,0 +1,2374 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+
+
+    <!--
+    				<div class="card">
+    					<div class="card-header">
+    						<h4>Информация о статье</h4>
+    					</div>
+    					<div class="card-body">
+    						<ul>
+    							<li><h4>Lung Cancer. 2011 Nov;74(2):284-92. doi: 10.1016/j.lungcan.2011.02.008. Epub  2011 Mar 15.</h4></li>
+    							<li><H4><a  href="https://www.ncbi.nlm.nih.gov/pubmed/21411176" target="_blank"> A metabolomic approach to lung cancer.</a></H4></li>
+    							<li><h4 > Hori S, Nishiumi S, Kobayashi K, Shinohara M, Hatakeyama Y, Kotani Y, Hatano N, Maniwa Y, Nishio W, Bamba T, Fukusaki E, Azuma T, Takenawa T, Nishimura Y, Yoshida M.</h4></li>
+    						</ul>
+    					</div>
+    				</div>
+    -->
+
+
+
+    	<div class="container">
+        <br>
+        <div class="card">
+          <div class="card-header">
+            				<h3>Отображение подробной информации об исследовании</h3>
+          </div>
+        <div class="card-body">
+
+
+
+          <table class= "table table-border table-hover bg" cellspacing="6"  >
+            <thead style="background-color: #DEDEDE;">
+              <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Информация о статье</h4></th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Pubmed ID</td>
+
+                    <td> <a href=https://www.ncbi.nlm.nih.gov/pubmed/21411176> 21411176 </a> </td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Авторы</td>
+
+                    <td>Suya Hori, Shin Nishiumi, Kazuyuki Kobayashi, Masakazu Shinohara, Yukihisa Hatakeyama, Yoshikazu Kotani, Naoya Hatano, Yoshimasa Maniwa, Wataru Nishio, Takeshi Bamba, Eiichiro Fukusaki, Takeshi Azuma, Tadaomi Takenawa, Yoshihiro Nishimura, Masaru Yoshida </td>
+                </tr>
+                <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Страна</td>
+
+                    <td>Japan</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Год публикации</td>
+
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Функция исследования</td>
+
+                    <td>diagnosis</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Сравниваемые группы</td>
+
+                    <td>adenocarcinoma, squamous cell carcinoma, SCLC</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        
+                        <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                          <thead style="background-color: #DEDEDE;">
+                            <tr><th colspan="3" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Дизайн эксперимента</h4></th></tr>
+                            <tr>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #1 </td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                                  <td>adenocarcinoma, squamous cell carcinoma, SCLC</td>
+                                  <td>healthy</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                                  <td>33</td>
+                                  <td>29</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                                  <td>26, 7</td>
+                                  <td>23, 6</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                                  <td>median: 65 (55-81)</td>
+                                  <td>median: 64 (34-78)</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #2 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>adenocarcinoma, squamous cell carcinoma, SCLC</td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>11</td>
+                          <td>29</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>–</td>
+                          <td>23, 6</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td>–</td>
+                          <td>median: 64 (34-78)</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #3 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>adenocarcinoma, squamous cell carcinoma, SCLC</td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>22</td>
+                          <td>29</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>–</td>
+                          <td>23, 6</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td>–</td>
+                          <td>median: 64 (34-78)</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #4 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>adenocarcinoma, squamous cell carcinoma, SCLC</td>
+                          <td>tumor vs. adjacent normal tissue</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>7</td>
+                          <td>7</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>6, 1</td>
+                          <td>6, 1</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td>median: 61 (53-82)</td>
+                          <td>median: 61 (53-82)</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+
+      <table class= "table table-border table-hover bg" cellspacing="6"  >
+        <thead style="background-color: #DEDEDE;">
+          <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Инструментальный анализ</h4></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Хроматографическое разделение  </td>
+
+                <td>GC</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Источник ионизации </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+            <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Режим положительной/отрицательной ионизации </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Масс-анализатор </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Уровень идентификации </td>
+
+                <td>–</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Программное обеспечение для обработки данных </td>
+
+                <td>Shimadzu GCMSsolution software</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <table class= "table table-border table-hover bg" cellspacing="6"  >
+      <thead style="background-color: #DEDEDE;">
+        <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Процессинг данных</h4></th></tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Поиск по базам данных  </td>
+
+              <td>commercially available GC/MS Metabolite Mass Spectral Database (Shimadzu Co.), NIST Mass Spectral Library (NIST 08)</td>
+          </tr>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Статистический анализ </td>
+
+              <td>student’s t-test, PLS-DA</td>
+          </tr>
+          <tr>
+          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Метод классификации </td>
+
+              <td>–</td>
+          </tr>
+
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <br>
+    <div class="card">
+    					<div class="card-header" >
+    						<h4>Выявленные значимые метаболиты</h4>
+    					</div>
+    					<div class="card-body" role="tablist">
+    						<ul class="nav nav-tabs">
+    							<li class="nav-item">
+    								<a class="nav-link active" data-toggle='tab' href="#tab1" role="tab" aria-controls="home" aria-expanded="true">Метод дифференциального анализа</a>
+    							</li>
+    							<li class="nav-item">
+    								<a class="nav-link " data-toggle='tab' href="#tab2" role="tab" aria-controls="profile">Классификационный метод</a>
+    							</li>
+    						</ul>
+    			            <div class="tab-content">
+    			            	<div class="tab-pane fade show active" role='tabpanel' id="tab1" style="width: 100% !important;">
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table1">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (заболевание)</th>
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (контроль)</th>
+    										<th style="font-family: monospace;color:black !important">Fold change (case/control)</th>
+    										<th style="font-family: monospace;color:black !important">P-value</th>
+    										<th style="font-family: monospace;color:black !important">FDR</th>
+    										<th style="font-family: monospace;color:black !important">VIP</th>
+                                            <th > HMDB </th>
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.84 </td>
+                        <td> 0.0007 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.41 </td>
+                        <td> 0.0038 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.33 </td>
+                        <td> 0.0007 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.31 </td>
+                        <td> 0.003 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.2 </td>
+                        <td> 0.0029 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.09 </td>
+                        <td> 0.104 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.08 </td>
+                        <td> 0.18 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.06 </td>
+                        <td> 0.005 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.05 </td>
+                        <td> 0.013 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.02 </td>
+                        <td> 0.008 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.86 </td>
+                        <td> 0.002 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.84 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.84 </td>
+                        <td> 0.0003 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.77 </td>
+                        <td> 0.006 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.76 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> octanoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.74 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 4-hydroxyproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.68 </td>
+                        <td> 0.056 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000725 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.67 </td>
+                        <td> 0.092 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisovaleric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.62 </td>
+                        <td> 0.019 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.61 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.59 </td>
+                        <td> 0.016 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> octanoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.58 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.56 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.51 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aconitic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.49 </td>
+                        <td> 0.082 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> benzoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.48 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.48 </td>
+                        <td> 0.423 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisovaleric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.47 </td>
+                        <td> 0.0091 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.43 </td>
+                        <td> 0.033 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 4-hydroxyproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.43 </td>
+                        <td> 0.029 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000725 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.42 </td>
+                        <td> 0.343 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.42 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.41 </td>
+                        <td> 0.0042 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.4 </td>
+                        <td> 0.013 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisovaleric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.4 </td>
+                        <td> 0.114 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.4 </td>
+                        <td> 0.0002 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.39 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> benzoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.39 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> palmitoleic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.35 </td>
+                        <td> 0.384 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0003229 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.35 </td>
+                        <td> 0.101 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.35 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.35 </td>
+                        <td> 0.0036 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> palmitoleic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.34 </td>
+                        <td> 0.229 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0003229 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.34 </td>
+                        <td> 0.0015 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> palmitoleic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.33 </td>
+                        <td> 0.304 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0003229 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 4-hydroxyproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.31 </td>
+                        <td> 0.414 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000725 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.29 </td>
+                        <td> 0.052 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.29 </td>
+                        <td> 0.0012 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.24 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.24 </td>
+                        <td> 0.212 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000696 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> octanoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.23 </td>
+                        <td> 0.039 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.22 </td>
+                        <td> 0.017 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.21 </td>
+                        <td> 0.06 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> benzoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.21 </td>
+                        <td> 0.012 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.18 </td>
+                        <td> 0.001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aconitic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.17 </td>
+                        <td> 0.327 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.17 </td>
+                        <td> 0.209 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000696 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.17 </td>
+                        <td> 0.0027 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-propyl-glutaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.16 </td>
+                        <td> 0.024 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hexenedioic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.16 </td>
+                        <td> 0.0008 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.13 </td>
+                        <td> 0.677 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000696 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-propyl-glutaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.13 </td>
+                        <td> 0.018 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hexenedioic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.11 </td>
+                        <td> 0.022 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.1 </td>
+                        <td> 0.274 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> isovalerylglycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.09 </td>
+                        <td> 0.146 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-propyl-glutaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.09 </td>
+                        <td> 0.097 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.08 </td>
+                        <td> 0.463 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.08 </td>
+                        <td> 0.645 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.08 </td>
+                        <td> 0.184 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> isovalerylglycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.07 </td>
+                        <td> 0.223 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-phenylalanine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.06 </td>
+                        <td> 0.704 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000159 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.04 </td>
+                        <td> 0.886 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> isovalerylglycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.03 </td>
+                        <td> 0.715 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aconitic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.02 </td>
+                        <td> 0.471 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.02 </td>
+                        <td> 0.866 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hexenedioic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.01 </td>
+                        <td> 0.975 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.97 </td>
+                        <td> 0.842 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-phenylalanine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.93 </td>
+                        <td> 0.366 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000159 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.89 </td>
+                        <td> 0.114 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.87 </td>
+                        <td> 0.106 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.87 </td>
+                        <td> 0.013 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-phenylalanine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.86 </td>
+                        <td> 0.085 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> HMDB0000159 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.86 </td>
+                        <td> 0.068 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.85 </td>
+                        <td> 0.0019 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.83 </td>
+                        <td> 0.0062 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.83 </td>
+                        <td> 0.371 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.72 </td>
+                        <td> 0.026 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.68 </td>
+                        <td> 0.051 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.67 </td>
+                        <td> 0.031 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.65 </td>
+                        <td> 0.0003 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.62 </td>
+                        <td> 0.372 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.58 </td>
+                        <td> 0.0032 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.57 </td>
+                        <td> 0.0025 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.47 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.42 </td>
+                        <td> 0.0001 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			           <div class="tab-pane fade" role='tabpanel' id="tab2" style="width: 100% !important;">
+
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table2">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+
+    											<th style="font-family: monospace;color:black !important">Значение отсечки</th>
+
+    											<th style="font-family: monospace;color:black !important">AUROC (95%CI)</th>
+
+    											<th style="font-family: monospace;color:black !important">Чувствительность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Специфичность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Точность (%)</th>
+
+                                                <th> HMDB </th>
+
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> octanoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 4-hydroxyproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000725 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> uric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000289 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisovaleric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> fumaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000134 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> octanoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aconitic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> benzoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 3-hydroxybutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisovaleric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 4-hydroxyproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000725 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisovaleric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> benzoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> palmitoleic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0003229 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> malic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000156 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> palmitoleic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0003229 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-proline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000162 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> palmitoleic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0003229 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 4-hydroxyproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000725 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000696 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> octanoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> lactic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000190 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hydroxyisobutyric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> benzoic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aconitic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000696 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-propyl-glutaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hexenedioic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-methionine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000696 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-propyl-glutaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hexenedioic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> isovalerylglycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-propyl-glutaric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> isovalerylglycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-phenylalanine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000159 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> isovalerylglycine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aconitic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 2-hexenedioic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> pyruvic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000243 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-phenylalanine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000159 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-phenylalanine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> HMDB0000159 </td>
+                    </tr>
+                
+                    <tr>
+                        <td> phosphoric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> 5-oxoproline </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> L-glutamic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> sarcosine </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> aspartic acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> glyceric acid </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			            </div>
+    					</div>
+    				</div>
+
+    			</div>
+
+
+
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/paper_try.js" %}'></script>
+
+    {% endblock content %}
+    

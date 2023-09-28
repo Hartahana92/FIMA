@@ -1,0 +1,144 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED31264112" %}' target="_blank">31264112</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> phosphatidylcholine diacyl C40:2 </td>
+                    <td> 0.24 ± 0.09 </td>
+                    <td> 0.15 ± 0.04 </td>
+                    <td> 1.88 </td>
+                    <td> 0.00381 </td>
+                    <td> 0.04904 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> lysophosphatidylcholine acyl C26:1 </td>
+                    <td> 0.28 ± 0.07 </td>
+                    <td> 0.18 ± 0.06 </td>
+                    <td> 1.52 </td>
+                    <td> 0.00083 </td>
+                    <td> 0.04337 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> phosphatidylcholine diacyl C42:4 </td>
+                    <td> 0.46 ± 0.22 </td>
+                    <td> 0.26 ± 0.12 </td>
+                    <td> 1.79 </td>
+                    <td> 0.00174 </td>
+                    <td> 0.04529 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> phosphatidylcholine acyl-alkyl C44:3 </td>
+                    <td> 0.52 ± 0.21 </td>
+                    <td> 0.33 ± 0.11 </td>
+                    <td> 1.58 </td>
+                    <td> 0.00322 </td>
+                    <td> 0.04789 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> lysophosphatidylcholine acyl C26:0 </td>
+                    <td> 0.53 ± 0.14 </td>
+                    <td> 0.31 ± 0.14 </td>
+                    <td> 1.71 </td>
+                    <td> 0.00011 </td>
+                    <td> 0.01113 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> phosphatidylcholine acyl-alkyl C42:1 </td>
+                    <td> 0.69 ± 0.14 </td>
+                    <td> 0.53 ± 0.13 </td>
+                    <td> 1.57 </td>
+                    <td> 0.00273 </td>
+                    <td> 0.04729 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> phosphatidylcholine diacyl C34:4 </td>
+                    <td> 0.93 ± 0.40 </td>
+                    <td> 1.44 ± 0.43 </td>
+                    <td> 0.65 </td>
+                    <td> 0.00162 </td>
+                    <td> 0.04529 </td>
+                    <td> – </td>
+                    <td> Y</td>
+                    <td> – </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

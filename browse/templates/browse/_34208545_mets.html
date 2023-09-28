@@ -1,0 +1,576 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED34208545" %}' target="_blank">34208545</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> 2-propylpent-3-enoic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 50 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0013904 </td>
+                </tr>
+            
+                <tr>
+                    <td> 13,14-Dihydro PGE1/Prostaglandin F1a </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 5 </td>
+                    <td> 0.047 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0005076 </td>
+                </tr>
+            
+                <tr>
+                    <td> 2-hexenoylcarnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 16 </td>
+                    <td> 0.013 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0013161 </td>
+                </tr>
+            
+                <tr>
+                    <td> 2-octenoylcarnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3 </td>
+                    <td> 0.026 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0013324 </td>
+                </tr>
+            
+                <tr>
+                    <td> chenodeoxycholic </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 28 </td>
+                    <td> 0.0005 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000518 </td>
+                </tr>
+            
+                <tr>
+                    <td> deoxycholic acid glycine conjugate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 28 </td>
+                    <td> 0.0005 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> glycoursodeoxycholic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 28 </td>
+                    <td> 0.0005 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000708 </td>
+                </tr>
+            
+                <tr>
+                    <td> cholic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 4 </td>
+                    <td> 0.026 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000619 </td>
+                </tr>
+            
+                <tr>
+                    <td> cis-5-Tetradecenoylcarnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 4 </td>
+                    <td> 0.033 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0002014 </td>
+                </tr>
+            
+                <tr>
+                    <td> decanoylcarnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000651 </td>
+                </tr>
+            
+                <tr>
+                    <td> dodecanoylcarnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 6 </td>
+                    <td> 0.0009 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0002250 </td>
+                </tr>
+            
+                <tr>
+                    <td> L-carnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000062 </td>
+                </tr>
+            
+                <tr>
+                    <td> L-octanoylcarnitine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.0008 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000791 </td>
+                </tr>
+            
+                <tr>
+                    <td> LysoPC(P-18:1) </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3 </td>
+                    <td> 0.026 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011507 </td>
+                </tr>
+            
+                <tr>
+                    <td> PG(18:1/18:2) </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 6 </td>
+                    <td> 0.0087 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0010620 </td>
+                </tr>
+            
+                <tr>
+                    <td> PI(16:0/18:1) </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 7 </td>
+                    <td> 0.0002 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0009782 </td>
+                </tr>
+            
+                <tr>
+                    <td> 4-guanidinobutanoic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 4 </td>
+                    <td> 0.029 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0003464 </td>
+                </tr>
+            
+                <tr>
+                    <td> isodesmosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 19 </td>
+                    <td> 0.043 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000739 </td>
+                </tr>
+            
+                <tr>
+                    <td> L-isoleucyl-L-proline </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.0005 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011174 </td>
+                </tr>
+            
+                <tr>
+                    <td> myo-inositol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.0002 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000211 </td>
+                </tr>
+            
+                <tr>
+                    <td> glyceraldehyde </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001051 </td>
+                </tr>
+            
+                <tr>
+                    <td> beta-cortol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 8 </td>
+                    <td> 0.013 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0005821 </td>
+                </tr>
+            
+                <tr>
+                    <td> 5-Acetylamino-6-formylamino-3-methyluracil </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3 </td>
+                    <td> 0.029 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011105 </td>
+                </tr>
+            
+                <tr>
+                    <td> 4-hydroxycyclohexylcarboxylic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001988 </td>
+                </tr>
+            
+                <tr>
+                    <td> guanidinosuccinic acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3 </td>
+                    <td> 0.023 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0003157 </td>
+                </tr>
+            
+                <tr>
+                    <td> proline betaine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 2 </td>
+                    <td> 0.024 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0004827 </td>
+                </tr>
+            
+                <tr>
+                    <td> androstanediol </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 54 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000495 </td>
+                </tr>
+            
+                <tr>
+                    <td> dopamine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 5 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000073 </td>
+                </tr>
+            
+                <tr>
+                    <td> epinephrine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 134 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000068 </td>
+                </tr>
+            
+                <tr>
+                    <td> androstenedione </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 8 </td>
+                    <td> 0.023 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000053 </td>
+                </tr>
+            
+                <tr>
+                    <td> tetrahydrobiopterin/sapropterin (BH4, THB) </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 8 </td>
+                    <td> 0.0031 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000027 </td>
+                </tr>
+            
+                <tr>
+                    <td> N-desmethylaminopyrine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 10 </td>
+                    <td> 0.0003 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0013839 </td>
+                </tr>
+            
+                <tr>
+                    <td> isopentenyladenine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 31 </td>
+                    <td> 0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0245646 </td>
+                </tr>
+            
+                <tr>
+                    <td> aspartyl glycine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 50 </td>
+                    <td> 0.0006 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0028753 </td>
+                </tr>
+            
+                <tr>
+                    <td> Asymmetric dimethylarginine (ADMA) </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 16 </td>
+                    <td> 0.044 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> hypoglycin </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 442 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0029427 </td>
+                </tr>
+            
+                <tr>
+                    <td> L-glutamic acid n-butyl ester </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 65 </td>
+                    <td> 0.0009 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> N(alpha)-t-Butoxycarbonyl-L-leucine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 161 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> Pro Leu </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 625 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 1-methyladenine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 59 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0011599 </td>
+                </tr>
+            
+                <tr>
+                    <td> 3-methyluric acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 198 </td>
+                    <td> <0.0001 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0001970 </td>
+                </tr>
+            
+                <tr>
+                    <td> N6-methyladenosine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 27 </td>
+                    <td> 0.0085 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0004044 </td>
+                </tr>
+            
+                <tr>
+                    <td> fumaric acid </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 17 </td>
+                    <td> 0.011 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> –</td>
+                    <td> HMDB0000134 </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

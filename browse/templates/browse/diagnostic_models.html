@@ -1,0 +1,54 @@
+{% extends "browse/index.html" %}
+{% load static %}
+{% block content %}
+<div class="text-center mt-5">
+<br><br>
+
+
+ <!-- <h1 style="text-align: left"> &nbsp;&nbsp;&nbsp;&nbsp;Укажите, какие публикации вам нужны: </h1> -->
+ <br>
+<a href="{% url "analys_lung" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #eef360;">
+        <figcaption>
+              <img src="{% static 'browse/lung.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Рак лёгкого</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр метаболитов по раку лёгкого&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+
+<a href="{% url "analys_ssz" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #eef360;">
+        <figcaption>
+              <img src="{% static 'browse/prostate.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">Рак простаты</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр метаболитов по раку простаты&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+<a href="{% url "analys_ssz" %}" style="text-decoration: none;color: #FFFFFF !important;">
+    <figure style="background-color: #eef360;">
+        <figcaption>
+              <img src="{% static 'browse/hypertension.jpg' %}">
+              <div class="container">
+                <h2 style="text-align:left; color: #000000">ССЗ</h2>
+              <p style="text-align:left; size:120%; color: #000000"> Просмотр метаболитов по ССЗ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+              </div>
+        </figcaption>
+    </figure>
+</a>
+&nbsp;
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>copyright © ЛФиМА bebris</p>
+
+</div>
+{% endblock content %}

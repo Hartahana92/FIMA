@@ -1,0 +1,552 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+    <div class="container">
+        <br>
+        <div class="card">
+        <div class="card-header">
+          <h3>Метаболиты, выявленные в исследовании <a style="font-family: monospace;" href='{% url "PUBMED30473010" %}' target="_blank">30473010</a></h3>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <table class="compact cell-border hover stripe" id="table">
+              <thead>
+                <td>Метаболит</td>
+                <!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+                <td>Средняя концентрация (заболевание)</td>
+                <td>Средняя концентрация (контроль)</td>
+                <td>Fold change (case/control)</td>
+                <td>P-value</td>
+                <td>FDR</td>
+                <td>VIP</td>
+                <td>Выделен автором, как значимый</td>
+                <td> HMDB </td> <!-- make invisible -->
+              </thead>
+
+                
+                <tr>
+                    <td> creatinine </td>
+                    <td> 1.93±0.92 ng/mL </td>
+                    <td> 3.32±1.89 ng/mL </td>
+                    <td> 2.53151318794056 </td>
+                    <td> 2.81e-06 </td>
+                    <td> – </td>
+                    <td> 1.61 </td>
+                    <td> –</td>
+                    <td> HMDB0000562 </td>
+                </tr>
+            
+                <tr>
+                    <td> xanthine </td>
+                    <td> 10.84±4.51 ng/mL </td>
+                    <td> 16.48±4.84 ng/mL </td>
+                    <td> 4 </td>
+                    <td> 0.00031 </td>
+                    <td> – </td>
+                    <td> 1.33 </td>
+                    <td> –</td>
+                    <td> HMDB0000292 </td>
+                </tr>
+            
+                <tr>
+                    <td> cystathionine </td>
+                    <td> 1116.98±638.10 ng/mL </td>
+                    <td> 634.97±611.20 ng/mL </td>
+                    <td> 5.06302637588112 </td>
+                    <td> 1.04e-07 </td>
+                    <td> – </td>
+                    <td> 1.84 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> asparagine </td>
+                    <td> 11953.05±1494.14 ng/mL </td>
+                    <td> 10300.55±1266.10 ng/mL </td>
+                    <td> 5.5404378724437 </td>
+                    <td> 1.86e-09 </td>
+                    <td> – </td>
+                    <td> 1.9 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> phenylalanine </td>
+                    <td> 12396.95±2022.94 ng/mL </td>
+                    <td> 11365.30±1254.94 ng/mL </td>
+                    <td> 2.12874036490672 </td>
+                    <td> 0.0002 </td>
+                    <td> – </td>
+                    <td> 1.39 </td>
+                    <td> –</td>
+                    <td> HMDB0000159 </td>
+                </tr>
+            
+                <tr>
+                    <td> citric acid </td>
+                    <td> 135.09±38.09 ng/mL </td>
+                    <td> 29.47±6.40 ng/mL </td>
+                    <td> 0.312082637225403 </td>
+                    <td> 1.87e-07 </td>
+                    <td> – </td>
+                    <td> 1.66 </td>
+                    <td> –</td>
+                    <td> HMDB0000094 </td>
+                </tr>
+            
+                <tr>
+                    <td> proline </td>
+                    <td> 1529.22±403.46 ng/mL </td>
+                    <td> 1079.66±215.79 ng/mL </td>
+                    <td> 2.77021893622185 </td>
+                    <td> 6.07e-05 </td>
+                    <td> – </td>
+                    <td> 1.44 </td>
+                    <td> –</td>
+                    <td> HMDB0000162 </td>
+                </tr>
+            
+                <tr>
+                    <td> glutamate </td>
+                    <td> 1532.78±321.05 ng/mL </td>
+                    <td> 1092.18±192.11 ng/mL </td>
+                    <td> 3.07375036257603 </td>
+                    <td> 5.05e-06 </td>
+                    <td> – </td>
+                    <td> 1.58 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> serine </td>
+                    <td> 159.17±48.86 ng/mL </td>
+                    <td> 64.38±23.19 ng/mL </td>
+                    <td> 4.95883079975595 </td>
+                    <td> 2.44e-07 </td>
+                    <td> – </td>
+                    <td> 1.75 </td>
+                    <td> –</td>
+                    <td> HMDB0000187 </td>
+                </tr>
+            
+                <tr>
+                    <td> cGMP </td>
+                    <td> 16847.50±2023.57 ng/mL </td>
+                    <td> 14360.00±2034.44 ng/mL </td>
+                    <td> 3.24900958542494 </td>
+                    <td> 0.000117 </td>
+                    <td> – </td>
+                    <td> 1.4 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> ornithine </td>
+                    <td> 18747.50±5011.63 ng/mL </td>
+                    <td> 12719.00±3260.69 ng/mL </td>
+                    <td> 3.38698124945011 </td>
+                    <td> 0.019 </td>
+                    <td> – </td>
+                    <td> 1.05 </td>
+                    <td> –</td>
+                    <td> HMDB0000214 </td>
+                </tr>
+            
+                <tr>
+                    <td> nicotinylglycine </td>
+                    <td> 2.19±0.59 ng/mL </td>
+                    <td> 3.18±0.96 ng/mL </td>
+                    <td> 0.366021423986406 </td>
+                    <td> 0.00035 </td>
+                    <td> – </td>
+                    <td> 1.31 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> pyroglutamic acid </td>
+                    <td> 2.91±0.84 ng/mL </td>
+                    <td> 1.71±0.92 ng/mL </td>
+                    <td> 6.36429187003935 </td>
+                    <td> 1.23e-09 </td>
+                    <td> – </td>
+                    <td> 1.98 </td>
+                    <td> –</td>
+                    <td> HMDB0000267 </td>
+                </tr>
+            
+                <tr>
+                    <td> succinic acid </td>
+                    <td> 208.88±46.71 ng/mL </td>
+                    <td> 1181.10±867.10 ng/mL </td>
+                    <td> 0.360982298880624 </td>
+                    <td> 3.43e-06 </td>
+                    <td> – </td>
+                    <td> 1.55 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> gluconolactone </td>
+                    <td> 224.84±120.50 ng/mL </td>
+                    <td> 112.48±38.85 ng/mL </td>
+                    <td> 0.219151430329009 </td>
+                    <td> 5.91e-08 </td>
+                    <td> – </td>
+                    <td> 1.65 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> histidine </td>
+                    <td> 24879.00±3290.40 ng/mL </td>
+                    <td> 15432.00±2151.27 ng/mL </td>
+                    <td> 3.63007662126864 </td>
+                    <td> 7.2e-07 </td>
+                    <td> – </td>
+                    <td> 1.66 </td>
+                    <td> –</td>
+                    <td> HMDB0000177 </td>
+                </tr>
+            
+                <tr>
+                    <td> niacinamide </td>
+                    <td> 26303.50±4458.58 ng/mL </td>
+                    <td> 22834.50±2545.10 ng/mL </td>
+                    <td> 0.376311686852767 </td>
+                    <td> 0.008 </td>
+                    <td> – </td>
+                    <td> 1.03 </td>
+                    <td> –</td>
+                    <td> HMDB0001406 </td>
+                </tr>
+            
+                <tr>
+                    <td> threonine </td>
+                    <td> 2653.95±739.97 ng/mL </td>
+                    <td> 1565.30±260.95 ng/mL </td>
+                    <td> 3.24900958542494 </td>
+                    <td> 2.98e-07 </td>
+                    <td> – </td>
+                    <td> 1.76 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 4-hydroxyproline </td>
+                    <td> 303.28±107.42 ng/mL </td>
+                    <td> 131.24±59.38 ng/mL </td>
+                    <td> 7.83536238069541 </td>
+                    <td> 0.000505 </td>
+                    <td> – </td>
+                    <td> 1.33 </td>
+                    <td> –</td>
+                    <td> HMDB0000725 </td>
+                </tr>
+            
+                <tr>
+                    <td> 1-methylhistidine </td>
+                    <td> 3102.10±695.01 ng/mL </td>
+                    <td> 1912.36±722.30 ng/mL </td>
+                    <td> 2.69446715373138 </td>
+                    <td> 0.000435 </td>
+                    <td> – </td>
+                    <td> 1.27 </td>
+                    <td> –</td>
+                    <td> HMDB0000001 </td>
+                </tr>
+            
+                <tr>
+                    <td> AMP </td>
+                    <td> 3240.20±1091.67 ng/mL </td>
+                    <td> 1211.94±319.08 ng/mL </td>
+                    <td> 0.0395548935615713 </td>
+                    <td> 3.91e-05 </td>
+                    <td> – </td>
+                    <td> 1.42 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> glycine </td>
+                    <td> 359.52±138.91 ng/mL </td>
+                    <td> 176.19±95.98 ng/mL </td>
+                    <td> 4.11245530662427 </td>
+                    <td> 2.08e-05 </td>
+                    <td> – </td>
+                    <td> 1.48 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> malic acid </td>
+                    <td> 398.03±103.15 ng/mL </td>
+                    <td> 623.55±63.80 ng/mL </td>
+                    <td> 0.181746564665039 </td>
+                    <td> 9.29e-06 </td>
+                    <td> – </td>
+                    <td> 1.57 </td>
+                    <td> –</td>
+                    <td> HMDB0000156 </td>
+                </tr>
+            
+                <tr>
+                    <td> N,N-Dimethylglycine </td>
+                    <td> 4.54±2.62 ng/mL </td>
+                    <td> 1.30±1.73 ng/mL </td>
+                    <td> 2.42838976879009 </td>
+                    <td> 0.000651 </td>
+                    <td> – </td>
+                    <td> 1.21 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> NG,NG-dimethylarginine </td>
+                    <td> 438.06±85.80 ng/mL </td>
+                    <td> 342.24±77.10 ng/mL </td>
+                    <td> 23.917587978159 </td>
+                    <td> 9.6e-15 </td>
+                    <td> – </td>
+                    <td> 2.18 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> arginine </td>
+                    <td> 495.84±146.08 ng/mL </td>
+                    <td> 346.18±93.95 ng/mL </td>
+                    <td> 2.67585510957222 </td>
+                    <td> 8.63e-05 </td>
+                    <td> – </td>
+                    <td> 1.36 </td>
+                    <td> –</td>
+                    <td> HMDB0000517 </td>
+                </tr>
+            
+                <tr>
+                    <td> choline </td>
+                    <td> 5.34±1.52 ng/mL </td>
+                    <td> 2.28±1.43 ng/mL </td>
+                    <td> 5.9380942825162 </td>
+                    <td> 2.34e-14 </td>
+                    <td> – </td>
+                    <td> 2.11 </td>
+                    <td> –</td>
+                    <td> HMDB0000097 </td>
+                </tr>
+            
+                <tr>
+                    <td> 5-methylcytidine </td>
+                    <td> 73.17±33.40 ng/mL </td>
+                    <td> 103.46±35.56 ng/mL </td>
+                    <td> 0.348685916587601 </td>
+                    <td> 0.000501 </td>
+                    <td> – </td>
+                    <td> 1.33 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> citrulline </td>
+                    <td> 735.70±238.92 ng/mL </td>
+                    <td> 394.84±95.35 ng/mL </td>
+                    <td> 2.39495740923786 </td>
+                    <td> 0.031 </td>
+                    <td> – </td>
+                    <td> 1.01 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 1-methyladenosine </td>
+                    <td> 7396.10±1303.52 ng/mL </td>
+                    <td> 5521.85±792.75 ng/mL </td>
+                    <td> 0.336808394216423 </td>
+                    <td> 4.41e-10 </td>
+                    <td> – </td>
+                    <td> 1.99 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 5’-methylthioadenosine </td>
+                    <td> 802.62±172.27 ng/mL </td>
+                    <td> 311.79±67.04 ng/mL </td>
+                    <td> 0.303548721098762 </td>
+                    <td> 0.00546 </td>
+                    <td> – </td>
+                    <td> 1.06 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> testosterone </td>
+                    <td> 9562.95±1219.14 ng/mL </td>
+                    <td> 8107.15±1450.78 ng/mL </td>
+                    <td> 11.3137084989848 </td>
+                    <td> 4.33e-05 </td>
+                    <td> – </td>
+                    <td> 1.45 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> glutamine </td>
+                    <td> 994.55±739.86 ng/mL </td>
+                    <td> 334.96±233.22 ng/mL </td>
+                    <td> 3.05251841792112 </td>
+                    <td> 4.44e-13 </td>
+                    <td> – </td>
+                    <td> 2.07 </td>
+                    <td> –</td>
+                    <td> HMDB0000641 </td>
+                </tr>
+            
+                <tr>
+                    <td> 2-phenylacetamide </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 7.21000370088664 </td>
+                    <td> 0.00359 </td>
+                    <td> – </td>
+                    <td> 1.12 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> N1-methyl-2-pyridone-5-carboxamide </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 3.73213196614723 </td>
+                    <td> 0.000388 </td>
+                    <td> – </td>
+                    <td> 1.29 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> 5-acetamidopentanoate </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.414659772907221 </td>
+                    <td> 0.000436 </td>
+                    <td> – </td>
+                    <td> 1.28 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> carnitine C7-COOH </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.386891248385598 </td>
+                    <td> 0.00104 </td>
+                    <td> – </td>
+                    <td> 1.27 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> spermidine </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.386891248385598 </td>
+                    <td> 0.000184 </td>
+                    <td> – </td>
+                    <td> 1.4 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> carnitine C11:1 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.248273123859259 </td>
+                    <td> 0.000291 </td>
+                    <td> – </td>
+                    <td> 1.32 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> carnitine C11:2 </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.244855074396732 </td>
+                    <td> 0.000275 </td>
+                    <td> – </td>
+                    <td> 1.32 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+                <tr>
+                    <td> N-acetylisatin </td>
+                    <td> – </td>
+                    <td> – </td>
+                    <td> 0.136786712657593 </td>
+                    <td> 0.00312 </td>
+                    <td> – </td>
+                    <td> 1.09 </td>
+                    <td> –</td>
+                    <td> – </td>
+                </tr>
+            
+
+
+            </table>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/meta_try.js" %}'></script>
+
+    {% endblock content %}
+
+    

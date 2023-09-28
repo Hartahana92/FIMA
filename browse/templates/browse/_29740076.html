@@ -1,0 +1,934 @@
+
+    {% extends "browse/index.html" %}
+    {% load static %}
+    {% block content %}
+
+
+    <!--
+    				<div class="card">
+    					<div class="card-header">
+    						<h4>Информация о статье</h4>
+    					</div>
+    					<div class="card-body">
+    						<ul>
+    							<li><h4>Lung Cancer. 2011 Nov;74(2):284-92. doi: 10.1016/j.lungcan.2011.02.008. Epub  2011 Mar 15.</h4></li>
+    							<li><H4><a  href="https://www.ncbi.nlm.nih.gov/pubmed/21411176" target="_blank"> A metabolomic approach to lung cancer.</a></H4></li>
+    							<li><h4 > Hori S, Nishiumi S, Kobayashi K, Shinohara M, Hatakeyama Y, Kotani Y, Hatano N, Maniwa Y, Nishio W, Bamba T, Fukusaki E, Azuma T, Takenawa T, Nishimura Y, Yoshida M.</h4></li>
+    						</ul>
+    					</div>
+    				</div>
+    -->
+
+
+
+    	<div class="container">
+        <br>
+        <div class="card">
+          <div class="card-header">
+            				<h3>Отображение подробной информации об исследовании</h3>
+          </div>
+        <div class="card-body">
+
+
+
+          <table class= "table table-border table-hover bg" cellspacing="6"  >
+            <thead style="background-color: #DEDEDE;">
+              <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Информация о статье</h4></th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Pubmed ID</td>
+
+                    <td> <a href=https://www.ncbi.nlm.nih.gov/pubmed/29740076> 29740076 </a> </td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Авторы</td>
+
+                    <td>Yingrong Chen, Zhihong Ma, Jing Zhong, Liqin Li, Lishan Min, Limin Xu, Hongwei Li, Jianbin Zhang, Wei Wu, Licheng Dai </td>
+                </tr>
+                <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Страна</td>
+
+                    <td>China</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Год публикации</td>
+
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Функция исследования</td>
+
+                    <td>diagnosis</td>
+                </tr>
+                <tr>
+                    <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Сравниваемые группы</td>
+
+                    <td>NSCLC </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        
+                        <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                          <thead style="background-color: #DEDEDE;">
+                            <tr><th colspan="3" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Дизайн эксперимента</h4></th></tr>
+                            <tr>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #1 </td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                                  <td>NSCLC </td>
+                                  <td>healthy</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                                  <td>90</td>
+                                  <td>90</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                                  <td>40, 50</td>
+                                  <td>42, 48</td>
+                              </tr>
+                              <tr>
+                                  <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                                  <td> 58.1 ± 9.0</td>
+                                  <td>53.0 ± 11.8</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #2 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>NSCLC </td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>90</td>
+                          <td>90</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>40, 50</td>
+                          <td>42, 48</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td> 58.1 ± 9.0</td>
+                          <td>53.0 ± 11.8</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #3 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>NSCLC </td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>90</td>
+                          <td>90</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>40, 50</td>
+                          <td>42, 48</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td> 58.1 ± 9.0</td>
+                          <td>53.0 ± 11.8</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+                <table class= "table table-border table-hover bg cell-border" cellspacing="6"  >
+                  <thead style="background-color: #DEDEDE;">
+                    <tr>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#FFFFFF;font-size:20px;"> Сравнительное исследование #4 </td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Группа с заболеванием</td>
+                        <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Контрольная группа</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Тип (характеристика) пациентов</td>
+
+                          <td>NSCLC </td>
+                          <td>healthy</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Число участников</td>
+
+                          <td>90</td>
+                          <td>90</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">Пол (М/Ж)</td>
+
+                          <td>40, 50</td>
+                          <td>42, 48</td>
+                      </tr>
+                      <tr>
+                          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;">средний возраст</td>
+
+                          <td> 58.1 ± 9.0</td>
+                          <td>53.0 ± 11.8</td>
+                      </tr>
+                  </tbody>
+              </table>
+                
+
+      <table class= "table table-border table-hover bg" cellspacing="6"  >
+        <thead style="background-color: #DEDEDE;">
+          <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Инструментальный анализ</h4></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Хроматографическое разделение  </td>
+
+                <td>LC</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Источник ионизации </td>
+
+                <td>ESI</td>
+            </tr>
+            <tr>
+            <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Режим положительной/отрицательной ионизации </td>
+
+                <td>positive</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Масс-анализатор </td>
+
+                <td>Q-TOF</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Уровень идентификации </td>
+
+                <td>MS/MS</td>
+            </tr>
+            <tr>
+                <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Программное обеспечение для обработки данных </td>
+
+                <td>Analyst TF, XCMS</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <table class= "table table-border table-hover bg" cellspacing="6"  >
+      <thead style="background-color: #DEDEDE;">
+        <tr><th colspan="6" style="font-family: monospace;color:black !important;border-top-style: solid;"><h4>Процессинг данных</h4></th></tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Поиск по базам данных  </td>
+
+              <td> in-house</td>
+          </tr>
+          <tr>
+              <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Статистический анализ </td>
+
+              <td>PCA, OPLS-DA</td>
+          </tr>
+          <tr>
+          <td width="400px" style="font-family: monospace;color:black !important;background-color:#f5f2f2;font-size:20px;"> Метод классификации </td>
+
+              <td>ROC curve</td>
+          </tr>
+
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <br>
+    <div class="card">
+    					<div class="card-header" >
+    						<h4>Выявленные значимые метаболиты</h4>
+    					</div>
+    					<div class="card-body" role="tablist">
+    						<ul class="nav nav-tabs">
+    							<li class="nav-item">
+    								<a class="nav-link active" data-toggle='tab' href="#tab1" role="tab" aria-controls="home" aria-expanded="true">Метод дифференциального анализа</a>
+    							</li>
+    							<li class="nav-item">
+    								<a class="nav-link " data-toggle='tab' href="#tab2" role="tab" aria-controls="profile">Классификационный метод</a>
+    							</li>
+    						</ul>
+    			            <div class="tab-content">
+    			            	<div class="tab-pane fade show active" role='tabpanel' id="tab1" style="width: 100% !important;">
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table1">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (заболевание)</th>
+    										<th style="font-family: monospace;color:black !important">Средняя концентрация (контроль)</th>
+    										<th style="font-family: monospace;color:black !important">Fold change (case/control)</th>
+    										<th style="font-family: monospace;color:black !important">P-value</th>
+    										<th style="font-family: monospace;color:black !important">FDR</th>
+    										<th style="font-family: monospace;color:black !important">VIP</th>
+                                            <th > HMDB </th>
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> PC(24:4/17:2) </td>
+                        <td> 128.19 ng/mL </td>
+                        <td> 167.95 ng/mL </td>
+                        <td> 0.76326287585591 </td>
+                        <td> 0.00378 </td>
+                        <td> 0.013 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:0/16:0) </td>
+                        <td> 13251.6 ng/mL </td>
+                        <td> 10152.58 ng/mL </td>
+                        <td> 1.30524457822544 </td>
+                        <td> 0.00527 </td>
+                        <td> 0.0162 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:0/18:1) </td>
+                        <td> 1455.64 ng/mL </td>
+                        <td> 974.53 ng/mL </td>
+                        <td> 1.49368413491632 </td>
+                        <td> 0.00826 </td>
+                        <td> 0.0207 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:0/18:2) </td>
+                        <td> 1546.56 ng/mL </td>
+                        <td> 1950.71 ng/mL </td>
+                        <td> 0.792819024867869 </td>
+                        <td> 0.00715 </td>
+                        <td> 0.0192 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(17:2/2:0) </td>
+                        <td> 163.47 ng/mL </td>
+                        <td> 340.06 ng/mL </td>
+                        <td> 0.480709286596483 </td>
+                        <td> 1.86e-05 </td>
+                        <td> 0.000638 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:4/3:0) </td>
+                        <td> 235.84 ng/mL </td>
+                        <td> 411.84 ng/mL </td>
+                        <td> 0.572649572649573 </td>
+                        <td> 0.00118 </td>
+                        <td> 0.00607 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:2/18:2) </td>
+                        <td> 25110.02 ng/mL </td>
+                        <td> 37034.05 ng/mL </td>
+                        <td> 0.678025222734214 </td>
+                        <td> 0.00105 </td>
+                        <td> 0.00581 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(16:0/20:3) </td>
+                        <td> 2686.1 ng/mL </td>
+                        <td> 4173.25 ng/mL </td>
+                        <td> 0.643647037680465 </td>
+                        <td> 0.00142 </td>
+                        <td> 0.00648 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(16:0/18:3) </td>
+                        <td> 269.38 ng/mL </td>
+                        <td> 436.53 ng/mL </td>
+                        <td> 0.617093899617438 </td>
+                        <td> 0.000113 </td>
+                        <td> 0.00227 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:0/22:6) </td>
+                        <td> 512.71 ng/mL </td>
+                        <td> 734.49 ng/mL </td>
+                        <td> 0.698048986371496 </td>
+                        <td> 0.0004 </td>
+                        <td> 0.00363 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:0/20:1) </td>
+                        <td> 518.4 ng/mL </td>
+                        <td> 347.2 ng/mL </td>
+                        <td> 1.49308755760369 </td>
+                        <td> 0.00196 </td>
+                        <td> 0.0328 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(17:0/18:2) </td>
+                        <td> 5810.28 ng/mL </td>
+                        <td> 7593.07 ng/mL </td>
+                        <td> 0.765208275440632 </td>
+                        <td> 0.000572 </td>
+                        <td> 0.00436 </td>
+                        <td> – </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:3/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 2.11 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.57 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(O-16:0/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.83 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.29 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:4/22:6) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.69 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.03 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:0/22:6) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.64 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.57 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(16:1/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.62 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.08 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:1/22:6) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.57 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.54 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(O-16:1/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.49 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.34 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(19:0/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.45 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.34 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(17:2/24:4) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.39 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.35 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(20:0/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.51 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.48 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(O-18:3/0:0) </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 0.37 </td>
+                        <td> – </td>
+                        <td> – </td>
+                        <td> 1.62 </td>
+                        <td "visibility:collapse;"> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			           <div class="tab-pane fade" role='tabpanel' id="tab2" style="width: 100% !important;">
+
+    								<table class="compact cell-border hover stripe display" width= "100%;" id="table2">
+    									<thead>
+    										<th style="font-family: monospace;color:black !important">Метаболит</th>
+    										<!-- <th style="font-family: monospace;color:black !important">Comparative study</th> -->
+
+    											<th style="font-family: monospace;color:black !important">Значение отсечки</th>
+
+    											<th style="font-family: monospace;color:black !important">AUROC (95%CI)</th>
+
+    											<th style="font-family: monospace;color:black !important">Чувствительность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Специфичность (%)</th>
+
+    											<th style="font-family: monospace;color:black !important">Точность (%)</th>
+
+                                                <th> HMDB </th>
+
+    									</thead>
+                                        <tbody>
+    										
+                    <tr>
+                        <td> PC(24:4/17:2) </td>
+                        <td> – </td>
+                        <td> 0.273 (0.139–0.407),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 70,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 80,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:0/16:0) </td>
+                        <td> – </td>
+                        <td> 0.763 (0.641–0.885), 
+combination of up-regulated PCs: 0.811 (0.703–0.919),
+ combination of 12 altered PCs: 1.000 (1.000–1.000) </td>
+                        <td> 73.3,
+combination of up-regulated PCs: 76.7,
+ combination of 12 altered PCs: 100 </td>
+                        <td> 76.7,
+combination of up-regulated PCs: 70.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:0/18:1) </td>
+                        <td> – </td>
+                        <td> 0.717 (0.586–0.848),
+combination of up-regulated PCs: 0.811 (0.703–0.919),
+ combination of 12 altered PCs: 1.000 (1.000–1.000) </td>
+                        <td> 60,
+combination of up-regulated PCs: 76.7,
+ combination of 12 altered PCs: 100 </td>
+                        <td> 80,
+combination of up-regulated PCs: 70.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:0/18:2) </td>
+                        <td> – </td>
+                        <td> 0.283 (0.147–0.420),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 56.7,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 90,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(17:2/2:0) </td>
+                        <td> – </td>
+                        <td> 0.183 (0.078–0.288),
+0.897 (0.818–0.975)
+combination of down-regulated PCs </td>
+                        <td> 66.7,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 86.7,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:4/3:0) </td>
+                        <td> – </td>
+                        <td> 0.233 (0.110–0.356),
+0.897 (0.818–0.975)
+combination of down-regulated PCs </td>
+                        <td> 66.7,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 83.3,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:2/18:2) </td>
+                        <td> – </td>
+                        <td> 0.254 (0.128–0.381),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 53.3,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 93.3,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(16:0/20:3) </td>
+                        <td> – </td>
+                        <td> 0.252 (0.126–0.378),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 60,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 90,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(16:0/18:3) </td>
+                        <td> – </td>
+                        <td> 0.218 (0.101–0.335),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 83.8,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 70,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:0/22:6) </td>
+                        <td> – </td>
+                        <td> 0.243 (0.121–0.365),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 53.5,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 90,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:0/20:1) </td>
+                        <td> – </td>
+                        <td> 0.691 (0.556–0.826),
+combination of up-regulated PCs: 0.811 (0.703–0.919),
+ combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 66.7,
+combination of up-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> 70,
+combination of up-regulated PCs: 70.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(17:0/18:2) </td>
+                        <td> – </td>
+                        <td> 0.25 (0.125–0.375),
+combination of down-regulated PCs: 0.897 (0.818–0.975),
+combination of 12 altered PCs: 1.000 (1.000–1.000)  </td>
+                        <td> 70,
+combination of down-regulated PCs: 90.0,
+combination of 12 altered PCs: 100 </td>
+                        <td> 73.3,
+combination of down-regulated PCs: 76.7,
+combination of 12 altered PCs: 100 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:3/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(O-16:0/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:4/22:6) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(18:0/22:6) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(16:1/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(15:1/22:6) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(O-16:1/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(19:0/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(17:2/24:4) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(20:0/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+                    <tr>
+                        <td> PC(O-18:3/0:0) </td>
+                        <td> – </td>
+                        <td> Combined effects of PCs: 0.996 (0.987–1.000)  </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> Combined effects of PCs: 98.9 </td>
+                        <td> – </td>
+                        <td> – </td>
+                    </tr>
+                
+
+                                    </tbody>
+    								</table>
+    			            	</div>
+    			            </div>
+    					</div>
+    				</div>
+
+    			</div>
+
+
+
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.css"/>
+
+
+
+    <script charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.5/af-2.3.7/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/b-print-2.2.2/cr-1.5.5/date-1.1.2/fc-4.0.2/fh-3.2.2/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/sl-1.3.4/sr-1.1.0/datatables.min.js"></script>
+
+
+
+    <script type="text/javascript" src='{% static "browse/js/paper_try.js" %}'></script>
+
+    {% endblock content %}
+    

@@ -1,0 +1,222 @@
+def HMDB0000001(request):
+        return render(request, 'browse/_1-methylhistidine')
+
+def HMDB0000002(request):
+        return render(request, 'browse/_1,3-diaminopropane')
+
+def HMDB0000005(request):
+        return render(request, 'browse/_2-ketobutyric acid')
+
+def HMDB0000008(request):
+        return render(request, 'browse/_2-hydroxybutyric acid')
+
+def HMDB0000010(request):
+        return render(request, 'browse/_2-methoxyestrone')
+
+def HMDB0000011(request):
+        return render(request, 'browse/_3-hydroxybutyric acid')
+
+def HMDB0000012(request):
+        return render(request, 'browse/_deoxyuridine')
+
+def HMDB0000014(request):
+        return render(request, 'browse/_deoxycytidine')
+
+def HMDB0000015(request):
+        return render(request, 'browse/_cortexolone')
+
+def HMDB0000016(request):
+        return render(request, 'browse/_deoxycorticosterone')
+
+def HMDB0000017(request):
+        return render(request, 'browse/_4-pyridoxic acid')
+
+def HMDB0000019(request):
+        return render(request, 'browse/_alpha-ketoisovaleric acid')
+
+def HMDB0000020(request):
+        return render(request, 'browse/_p-hydroxyphenylacetic acid')
+
+def HMDB0000021(request):
+        return render(request, 'browse/_iodotyrosine')
+
+def HMDB0000022(request):
+        return render(request, 'browse/_3-methoxytyramine')
+
+def HMDB0000023(request):
+        return render(request, 'browse/_(s)-3-hydroxyisobutyric acid')
+
+def HMDB0000026(request):
+        return render(request, 'browse/_ureidopropionic acid')
+
+def HMDB0000027(request):
+        return render(request, 'browse/_tetrahydrobiopterin')
+
+def HMDB0000030(request):
+        return render(request, 'browse/_biotin')
+
+def HMDB0000031(request):
+        return render(request, 'browse/_androsterone')
+
+def HMDB0000032(request):
+        return render(request, 'browse/_7-dehydrocholesterol')
+
+def HMDB0000033(request):
+        return render(request, 'browse/_carnosine')
+
+def HMDB0000034(request):
+        return render(request, 'browse/_adenine')
+
+def HMDB0000036(request):
+        return render(request, 'browse/_taurocholic acid')
+
+def HMDB0000037(request):
+        return render(request, 'browse/_aldosterone')
+
+def HMDB0000038(request):
+        return render(request, 'browse/_dihydrobiopterin')
+
+def HMDB0000039(request):
+        return render(request, 'browse/_butyric acid')
+
+def HMDB0000042(request):
+        return render(request, 'browse/_acetic acid')
+
+def HMDB0000043(request):
+        return render(request, 'browse/_betaine')
+
+def HMDB0000044(request):
+        return render(request, 'browse/_ascorbic acid')
+
+def HMDB0000045(request):
+        return render(request, 'browse/_adenosine monophosphate')
+
+def HMDB0000050(request):
+        return render(request, 'browse/_adenosine')
+
+def HMDB0000051(request):
+        return render(request, 'browse/_ammonia')
+
+def HMDB0000052(request):
+        return render(request, 'browse/_argininosuccinic acid')
+
+def HMDB0000053(request):
+        return render(request, 'browse/_androstenedione')
+
+def HMDB0000054(request):
+        return render(request, 'browse/_bilirubin')
+
+def HMDB0000056(request):
+        return render(request, 'browse/_beta-alanine')
+
+def HMDB0000058(request):
+        return render(request, 'browse/_cyclic amp')
+
+def HMDB0000060(request):
+        return render(request, 'browse/_acetoacetic acid')
+
+def HMDB0000062(request):
+        return render(request, 'browse/_l-carnitine')
+
+def HMDB0000063(request):
+        return render(request, 'browse/_cortisol')
+
+def HMDB0000064(request):
+        return render(request, 'browse/_creatine')
+
+def HMDB0000067(request):
+        return render(request, 'browse/_cholesterol')
+
+def HMDB0000068(request):
+        return render(request, 'browse/_epinephrine')
+
+def HMDB0000070(request):
+        return render(request, 'browse/_pipecolic acid')
+
+def HMDB0000071(request):
+        return render(request, 'browse/_deoxyinosine')
+
+def HMDB0000072(request):
+        return render(request, 'browse/_cis-aconitic acid')
+
+def HMDB0000073(request):
+        return render(request, 'browse/_dopamine')
+
+def HMDB0000076(request):
+        return render(request, 'browse/_dihydrouracil')
+
+def HMDB0000077(request):
+        return render(request, 'browse/_dehydroepiandrosterone')
+
+def HMDB0000078(request):
+        return render(request, 'browse/_cysteinylglycine')
+
+def HMDB0000079(request):
+        return render(request, 'browse/_dihydrothymine')
+
+def HMDB0000085(request):
+        return render(request, 'browse/_deoxyguanosine')
+
+def HMDB0000086(request):
+        return render(request, 'browse/_glycerophosphocholine')
+
+def HMDB0000087(request):
+        return render(request, 'browse/_dimethylamine')
+
+def HMDB0000089(request):
+        return render(request, 'browse/_cytidine')
+
+def HMDB0000092(request):
+        return render(request, 'browse/_dimethylglycine')
+
+def HMDB0000094(request):
+        return render(request, 'browse/_citric acid')
+
+def HMDB0000097(request):
+        return render(request, 'browse/_choline')
+
+def HMDB0000098(request):
+        return render(request, 'browse/_d-xylose')
+
+def HMDB0000099(request):
+        return render(request, 'browse/_l-cystathionine')
+
+def HMDB0000101(request):
+        return render(request, 'browse/_deoxyadenosine')
+
+def HMDB0000107(request):
+        return render(request, 'browse/_galactitol')
+
+def HMDB0000108(request):
+        return render(request, 'browse/_ethanol')
+
+def HMDB0000112(request):
+        return render(request, 'browse/_gamma-aminobutyric acid')
+
+def HMDB0000115(request):
+        return render(request, 'browse/_glycolic acid')
+
+def HMDB0000118(request):
+        return render(request, 'browse/_homovanillic acid')
+
+def HMDB0000119(request):
+        return render(request, 'browse/_glyoxylic acid')
+
+def HMDB0000121(request):
+        return render(request, 'browse/_folic acid')
+
+def HMDB0000122(request):
+        return render(request, 'browse/_d-glucose')
+
+def HMDB0000123(request):
+        return render(request, 'browse/_glycine')
+
+def HMDB0000124(request):
+        return render(request, 'browse/_fructose 6-phosphate')
+
+def HMDB0000125(request):
+        return render(request, 'browse/_glutathione')
+
+def HMDB0000126(request):
+        return render(request, 'browse/_glycerol 3-phosphate')
+

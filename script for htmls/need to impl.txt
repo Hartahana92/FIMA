@@ -1,0 +1,14 @@
+views
+urls 
+html
+
+!!Start htmls with _
+
+views 
+
+def HMDB0000001(request):
+    return render(request, 'browse/_1-methylhistidine.html')
+
+urls
+
+path('browse_metabolites/1-methylhistidine/', views.HMDB0000001, name="HMDB0000001"),
